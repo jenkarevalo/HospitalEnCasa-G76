@@ -74,6 +74,15 @@ public class Program
       Console.WriteLine("Nombre: " + medico.Nombre);
       Console.WriteLine("Apellido: " + medico.Apellido);
    }
+   static void VerListadoMedico()
+   {
+      var lsMedicos = _repositorioMedico.GetAllMedicos();
+      foreach (var medico in lsMedicos)
+      {
+         Console.WriteLine ("Nombre: " + medico.Nombre);
+         Console.WriteLine ("Telefono: " + medico.Telefono);
+      }
+   }
    static void AdicionarEnfermera()
    {
       Console.WriteLine ("Adicionando una Enfermera");
