@@ -1,0 +1,24 @@
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Dominio\bin\Debug\net6.0\HospiEnCasa.App.Dominio.deps.json
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Dominio\bin\Debug\net6.0\HospiEnCasa.App.Dominio.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Dominio\bin\Debug\net6.0\HospiEnCasa.App.Dominio.pdb
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\net6.0\HospiEnCasa.App.Dominio.csproj.AssemblyReference.cache
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\net6.0\HospiEnCasa.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\net6.0\HospiEnCasa.App.Dominio.AssemblyInfoInputs.cache
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\net6.0\HospiEnCasa.App.Dominio.AssemblyInfo.cs
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\net6.0\HospiEnCasa.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\net6.0\HospiEnCasa.App.Dominio.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\net6.0\refint\HospiEnCasa.App.Dominio.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\net6.0\HospiEnCasa.App.Dominio.pdb
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\net6.0\ref\HospiEnCasa.App.Dominio.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Dominio\bin\Debug\net6.0\HospiEnCasa.App.Dominio.deps.json
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Dominio\bin\Debug\net6.0\HospiEnCasa.App.Dominio.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Dominio\bin\Debug\net6.0\HospiEnCasa.App.Dominio.pdb
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\net6.0\HospiEnCasa.App.Dominio.csproj.AssemblyReference.cache
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\net6.0\HospiEnCasa.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\net6.0\HospiEnCasa.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\net6.0\HospiEnCasa.App.Dominio.AssemblyInfo.cs
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\net6.0\HospiEnCasa.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\net6.0\HospiEnCasa.App.Dominio.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\net6.0\refint\HospiEnCasa.App.Dominio.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\net6.0\HospiEnCasa.App.Dominio.pdb
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Dominio\obj\Debug\net6.0\ref\HospiEnCasa.App.Dominio.dll

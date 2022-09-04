@@ -1,0 +1,124 @@
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\HospiEnCasa.App.Consola.exe
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\HospiEnCasa.App.Consola.deps.json
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\HospiEnCasa.App.Consola.runtimeconfig.json
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\HospiEnCasa.App.Consola.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\HospiEnCasa.App.Consola.pdb
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Humanizer.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\HospiEnCasa.App.Dominio.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\HospiEnCasa.App.Persistencia.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\HospiEnCasa.App.Persistencia.pdb
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\HospiEnCasa.App.Dominio.pdb
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\obj\Debug\net6.0\HospiEnCasa.App.Consola.csproj.AssemblyReference.cache
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\obj\Debug\net6.0\HospiEnCasa.App.Consola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\obj\Debug\net6.0\HospiEnCasa.App.Consola.AssemblyInfoInputs.cache
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\obj\Debug\net6.0\HospiEnCasa.App.Consola.AssemblyInfo.cs
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\obj\Debug\net6.0\HospiEnCasa.App.Consola.csproj.CoreCompileInputs.cache
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\obj\Debug\net6.0\HospiEnCasa.App.Consola.csproj.CopyComplete
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\obj\Debug\net6.0\HospiEnCasa.App.Consola.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\obj\Debug\net6.0\refint\HospiEnCasa.App.Consola.dll
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\obj\Debug\net6.0\HospiEnCasa.App.Consola.pdb
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\obj\Debug\net6.0\HospiEnCasa.App.Consola.genruntimeconfig.cache
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Consola\obj\Debug\net6.0\ref\HospiEnCasa.App.Consola.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\HospiEnCasa.App.Consola.exe
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\HospiEnCasa.App.Consola.deps.json
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\HospiEnCasa.App.Consola.runtimeconfig.json
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\HospiEnCasa.App.Consola.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\HospiEnCasa.App.Consola.pdb
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\HospiEnCasa.App.Dominio.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\HospiEnCasa.App.Persistencia.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\HospiEnCasa.App.Persistencia.pdb
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\bin\Debug\net6.0\HospiEnCasa.App.Dominio.pdb
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\obj\Debug\net6.0\HospiEnCasa.App.Consola.csproj.AssemblyReference.cache
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\obj\Debug\net6.0\HospiEnCasa.App.Consola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\obj\Debug\net6.0\HospiEnCasa.App.Consola.AssemblyInfoInputs.cache
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\obj\Debug\net6.0\HospiEnCasa.App.Consola.AssemblyInfo.cs
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\obj\Debug\net6.0\HospiEnCasa.App.Consola.csproj.CoreCompileInputs.cache
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\obj\Debug\net6.0\HospiEnCasa.App.Consola.csproj.CopyComplete
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\obj\Debug\net6.0\HospiEnCasa.App.Consola.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\obj\Debug\net6.0\refint\HospiEnCasa.App.Consola.dll
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\obj\Debug\net6.0\HospiEnCasa.App.Consola.pdb
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\obj\Debug\net6.0\HospiEnCasa.App.Consola.genruntimeconfig.cache
+C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Consola\obj\Debug\net6.0\ref\HospiEnCasa.App.Consola.dll
