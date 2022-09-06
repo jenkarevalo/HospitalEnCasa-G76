@@ -142,14 +142,14 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Especialidad")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("Genero")
                         .HasColumnType("int");
 
                     b.Property<string>("Nombre")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Registro")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

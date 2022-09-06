@@ -19,9 +19,9 @@ public class Program
       //AdicionarMedico();
       //BuscarMedico();
       //AdicionarEnfermera();
-      //BuscarEnfermera();
+      BuscarEnfermera();
       //AdicionarFamiliarDesignado();
-      BuscarFamiliarDesignado();
+      //BuscarFamiliarDesignado();
    }
    static void AdicionarPaciente()
    {
@@ -63,7 +63,7 @@ public class Program
       medico.Telefono = "3171596482";
       medico.Genero = Genero.masculino;
       medico.Codigo ="15415123";
-      medico.Registro = "54578";
+      medico.Especialidad = "Ortopedia";
 
       _repositorioMedico.AddMedico(medico);
       Console.WriteLine("Medico Adicionado Correctamente");

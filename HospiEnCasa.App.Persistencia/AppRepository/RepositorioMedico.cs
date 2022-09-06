@@ -43,7 +43,7 @@ namespace HospiEnCasa.App.Persistencia
                 medicoEncontrado.Telefono = medico.Telefono;
                 medicoEncontrado.Genero = medico.Genero;
                 medicoEncontrado.Codigo = medico.Codigo;
-                medicoEncontrado.Registro = medico.Registro;
+                medicoEncontrado.Especialidad = medico.Especialidad;
 
                 _appContext.SaveChanges();
     
