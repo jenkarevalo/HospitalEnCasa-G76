@@ -33,9 +33,9 @@
                     <td>@medico.Genero</td>
                     <td>@medico.Codigo</td>
                     <td>@medico.Especialidad</td>
-                    <td><a asp-page="">Editar</a></td>
-                    <td><a asp-page="">Detalle</a></td>
-                    <td><a asp-page="">Eliminar</a></td>
+                    <td><a asp-page="./EditarMedico" asp-route-id="@medico.Id">Editar</a></td>
+                    <td><a asp-page="./VerMedico" asp-route-id="@medico.Id">Detalle</a></td>
+                    <td><a asp-page="./EliminarMedico" asp-route-id="@medico.Id">Eliminar</a></td>
                 </tr>
             }
         </tbody>

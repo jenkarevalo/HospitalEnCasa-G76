@@ -27,8 +27,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWNvc1xDcmVhck1lZGljby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Kathe/Desktop/Proyecto MisionTic/HospiEnCasa.App/HospiEnCasa.App.Frontend/Pages/Medicos/EditarMedico.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWNvc1xFZGl0YXJNZWRpY28uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kathe/Desktop/Proyecto MisionTic/HospiEnCasa.App/HospiEnCasa.App.Frontend/Pages/Medicos/EliminarMedico.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWNvc1xFbGltaW5hck1lZGljby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Kathe/Desktop/Proyecto MisionTic/HospiEnCasa.App/HospiEnCasa.App.Frontend/Pages/Medicos/ListadoMedicos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWNvc1xMaXN0YWRvTWVkaWNvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kathe/Desktop/Proyecto MisionTic/HospiEnCasa.App/HospiEnCasa.App.Frontend/Pages/Medicos/VerMedico.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWNvc1xWZXJNZWRpY28uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Kathe/Desktop/Proyecto MisionTic/HospiEnCasa.App/HospiEnCasa.App.Frontend/Pages/Privacy.cshtml]

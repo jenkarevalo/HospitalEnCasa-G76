@@ -1,13 +1,13 @@
 ﻿@page
-@model HospiEnCasa.App.Frontend.Pages.CrearMedicoModel
+@model HospiEnCasa.App.Frontend.Pages.EditarMedicoModel
 @{
-    ViewData["Title"] = "Crear Medico";
 }
 
-<h1>Crear Medico</h1>
+<h1>Editar información del medico</h1>
 <h2>@ViewData["Error"]</h2>
 <form method="POST" class="row g-3">
     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="Medico.Id"/>
     <div class="col-md-6">
         <label asp-for="Medico.Nombre" class="form-label">Nombre</label>
         <input type="text" asp-for="Medico.Nombre" class="form-control" id="txtNombre">
