@@ -1,0 +1,27 @@
+﻿@page
+@model HospiEnCasa.App.Frontend.Pages.VerMedicoModel
+@{
+}
+
+<h1>Informacion del Medico</h1>
+<p>
+    <a asp-page="./ListadoMedicos">Listado de Medicos</a>
+</p>
+
+<form method="POST">
+    </div>
+    <div class="card border-success mb-3" style="max-width: 20rem;">
+        <div class="card-header">Información del Medico</div>
+        <div class="card-body text-success">
+            <h5 class="card-title">
+                <label asp-for="Medico.Nombre" class="control-label"></label>
+                <input type="text" asp-for="Medico.Nombre" class="form-control" readonly/>
+                <label asp-for="Medico.Apellido" class="control-label"></label>
+                <input type="text" asp-for="Medico.Apellido" class="form-control" readonly/>
+            </h5>
+            <p class="card-text">Telefono: @Model.Medico.Telefono</p>
+            <p class="card-text">Especialidad: @Model.Medico.Especialidad</p>
+            <p class="card-text">Codigo: @Model.Medico.Codigo</p>
+        </div>
+    </div>
+</form>

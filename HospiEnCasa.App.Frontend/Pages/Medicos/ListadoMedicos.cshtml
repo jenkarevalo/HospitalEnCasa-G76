@@ -1,0 +1,43 @@
+﻿@page
+@model HospiEnCasa.App.Frontend.Pages.ListadoMedicosModel
+@{
+    ViewData["Title"] = "Listado de Medicos";
+}
+
+<h1>Listado de Medicos de la Hospitalizacion en Casa</h1>
+<hr>
+<a asp-page="CrearMedico">Crear Medico</a>
+
+<form method="POST">
+    <table class="table table-success table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellido</th>
+                <th scope="col">Telefono</th>
+                <th scope="col">Genero</th>
+                <th scope="col">Codigo</th>
+                <th scope="col">Especialidad</th>
+                <th scope="col"colspan="3">Opciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var medico in Model.Medicos)
+            {
+                <tr>
+                    <th scope="row">@medico.Id</th>
+                    <td>@medico.Nombre</td>
+                    <td>@medico.Apellido</td>
+                    <td>@medico.Telefono</td>
+                    <td>@medico.Genero</td>
+                    <td>@medico.Codigo</td>
+                    <td>@medico.Especialidad</td>
+                    <td><a asp-page="./EditarMedico" asp-route-id="@medico.Id">Editar</a></td>
+                    <td><a asp-page="./VerMedico" asp-route-id="@medico.Id">Detalle</a></td>
+                    <td><a asp-page="./EliminarMedico" asp-route-id="@medico.Id">Eliminar</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</form>
