@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z1TMxU9QGaQtjQ4YRhDgPk0Q4cDxmrd5jdyaW8pEEdWdNVOz2g5iaaeRfQaUXtF3kZ1MCVtPu2R9Rr8AWismgw==",
+  "dgSpecHash": "YjjjvrLSPSYZG+CcDsD6vlHqoxUzoZbT7IATQh++uYyv50NR+Bo/abpSUOstK/0J4xSnBM6VSJoNoT/hTV/3Wg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospiEnCasa.App\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj",
+  "projectFilePath": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kathe\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Kathe\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
