@@ -1,0 +1,27 @@
+﻿@page
+@model HospiEnCasa.App.Frontend.Pages.VerEnfermeraModel
+@{
+}
+
+<h1>Informacion de la enfermera</h1>
+<p>
+    <a asp-page="./ListadoEnfermeras">Listado de Enfermeras</a>
+</p>
+
+<form method="POST">
+    </div>
+    <div class="card border-success mb-3" style="max-width: 20rem;">
+        <div class="card-header">Información de la enfermera</div>
+        <div class="card-body text-success">
+            <h5 class="card-title">
+                <label asp-for="Enfermera.Nombre" class="control-label"></label>
+                <input type="text" asp-for="Enfermera.Nombre" class="form-control" readonly/>
+                <label asp-for="Enfermera.Apellido" class="control-label"></label>
+                <input type="text" asp-for="Enfermera.Apellido" class="form-control" readonly/>
+            </h5>
+            <p class="card-text">Telefono: @Model.Enfermera.Telefono</p>
+            <p class="card-text">Tarjeta Profesional: @Model.Enfermera.TarjetaProfesional</p>
+            <p class="card-text">Horas Laborales: @Model.Enfermera.HorasLaborales</p>
+        </div>
+    </div>
+</form>
