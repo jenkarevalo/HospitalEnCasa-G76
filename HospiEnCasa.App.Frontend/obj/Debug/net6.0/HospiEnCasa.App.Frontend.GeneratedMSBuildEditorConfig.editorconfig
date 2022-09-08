@@ -15,6 +15,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Kathe\Desktop\Proyecto MisionTic\HospiEnCasa.App\HospiEnCasa.App.Frontend
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Kathe/Desktop/Proyecto MisionTic/HospiEnCasa.App/HospiEnCasa.App.Frontend/Pages/Enfermeras/CrearEnfermera.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5mZXJtZXJhc1xDcmVhckVuZmVybWVyYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kathe/Desktop/Proyecto MisionTic/HospiEnCasa.App/HospiEnCasa.App.Frontend/Pages/Enfermeras/EditarEnfermera.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5mZXJtZXJhc1xFZGl0YXJFbmZlcm1lcmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kathe/Desktop/Proyecto MisionTic/HospiEnCasa.App/HospiEnCasa.App.Frontend/Pages/Enfermeras/EliminarEnfermera.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5mZXJtZXJhc1xFbGltaW5hckVuZmVybWVyYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kathe/Desktop/Proyecto MisionTic/HospiEnCasa.App/HospiEnCasa.App.Frontend/Pages/Enfermeras/ListadoEnfermeras.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5mZXJtZXJhc1xMaXN0YWRvRW5mZXJtZXJhcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kathe/Desktop/Proyecto MisionTic/HospiEnCasa.App/HospiEnCasa.App.Frontend/Pages/Enfermeras/VerEnfermera.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5mZXJtZXJhc1xWZXJFbmZlcm1lcmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Kathe/Desktop/Proyecto MisionTic/HospiEnCasa.App/HospiEnCasa.App.Frontend/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
