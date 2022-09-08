@@ -6,9 +6,5 @@ namespace HospiEnCasa.App.Dominio
        public string TarjetaProfesional {get; set;} 
        public int HorasLaborales {get; set;}
        public List<Paciente> ListaPacientes {get; set;}
-
     }
-
-
-
 }

@@ -10,6 +10,7 @@ namespace HospiEnCasa.App.Dominio
        
        [Required(ErrorMessage="El campo Nombre es obligatorio")]
        public string Nombre {get; set;} 
+       
        [Required(ErrorMessage="El campo Apellido es obligatorio")]
        public string Apellido { get; set;}
        public string Telefono {get; set;}

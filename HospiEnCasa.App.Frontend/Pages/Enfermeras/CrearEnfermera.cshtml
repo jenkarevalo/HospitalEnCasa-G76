@@ -1,0 +1,49 @@
+﻿@page
+@model HospiEnCasa.App.Frontend.Pages.CrearEnfermeraModel
+@{
+    ViewData["Title"] = "Crear Enfermera";
+}
+
+<h1>Crear Enfermera</h1>
+<h2>@ViewData["Error"]</h2>
+<form method="POST" class="row g-3">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="col-md-6">
+        <label asp-for="Enfermera.Nombre" class="form-label">Nombre</label>
+        <input type="text" asp-for="Enfermera.Nombre" class="form-control" id="txtNombre">
+        <span asp-validation-for="Enfermera.Nombre" class="text-danger"></span>
+    </div>
+    <div class="col-md-6">
+        <label asp-for="Enfermera.Apellido" class="form-label">Apellido</label>
+        <input type="text" asp-for="Enfermera.Apellido" class="form-control" id="txtApellido">
+
+        <span asp-validation-for="Enfermera.Apellido" class="text-danger"></span>
+    </div>
+    <div class="col-6">
+        <label asp-for="Enfermera.Telefono" class="form-label">Telefono</label>
+        <input type="text" asp-for="Enfermera.Telefono" class="form-control" id="txtTelefono" placeholder="Fijo o Celular"> 
+    </div>
+    <div class="col-6">
+        <label asp-for="Enfermera.TarjetaProfesional" class="form-label">Tarjeta Profesional</label>
+        <input type="text" asp-for="Enfermera.TarjetaProfesional" class="form-control" id="txtTarjetaProfesional">
+        <span asp-validation-for="Enfermera.TarjetaProfesional" class="text-danger"></span>
+    </div>
+    <div class="col-md-6">
+        <label asp-for="Enfermera.HorasLaborales" class="form-label">Horas Laborales</label>
+        <input type="text" asp-for="Enfermera.HorasLaborales" class="form-control" id="txtHorasLaborales">
+        <span asp-validation-for="Enfermera.HorasLaborales" class="text-danger"></span>
+    </div>
+    <div class="col-md-6">
+        <label asp-for="Enfermera.Genero" class="form-label">Genero</label>
+        <select id="inputCodigo" asp-for="Enfermera.Genero" class="form-select">
+            <option selected>Seleccione su Opcion</option>
+            <option value="0">Masculino</option>
+            <option value="1">Femenino</option>
+        </select>
+    </div>
+    <div class="col-12">
+        <button type="submit" class="btn btn-primary">Guardar</button>
+    </div>
+</form>
+
+
