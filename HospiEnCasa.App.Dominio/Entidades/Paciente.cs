@@ -7,7 +7,7 @@ namespace HospiEnCasa.App.Dominio
     public string Ciudad { get; set;}
     public DateTime FechaNacimiento {get; set;}
     public Historia Historia {get; set;}
-    public System.Nullable<int> MedicoId {get; set;}
+    public int MedicoId {get; set;}
     public Medico Medico {get; set;} 
     public System.Nullable<int>  EnfermeraId {get; set;}
     public Enfermera Enfermera {get; set;} 
