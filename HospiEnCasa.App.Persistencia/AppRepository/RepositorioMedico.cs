@@ -15,7 +15,6 @@ namespace HospiEnCasa.App.Persistencia
             var medicoAdicionado = this._appContext.Medicos.Add(medico);
             this._appContext.SaveChanges();
             return medicoAdicionado.Entity;
-
         }
         public void DeleteMedico (int idMedico)
         {
