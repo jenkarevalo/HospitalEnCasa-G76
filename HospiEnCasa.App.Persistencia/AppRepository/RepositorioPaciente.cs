@@ -43,6 +43,12 @@ namespace HospiEnCasa.App.Persistencia
             return
                 this._appContext.Pacientes.Where(p => p.MedicoId == idMedico);
         }
+        public IEnumerable<Paciente> GetPacientesXEnfermera(int idEnfermera)
+        {
+            Console.WriteLine("Id Enfermera: " + idEnfermera);
+            return
+                this._appContext.Pacientes.Where(p => p.EnfermeraId == idEnfermera);
+        }
         public Paciente UpdatePaciente(Paciente paciente)
         {
             var pacienteEncontrado = this._appContext.Pacientes.FirstOrDefault(p => p.Id == paciente.Id);

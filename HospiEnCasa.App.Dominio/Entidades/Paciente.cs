@@ -9,7 +9,7 @@ namespace HospiEnCasa.App.Dominio
     public Historia Historia {get; set;}
     public int MedicoId {get; set;}
     public Medico Medico {get; set;} 
-    public System.Nullable<int>  EnfermeraId {get; set;}
+    public int EnfermeraId {get; set;}
     public Enfermera Enfermera {get; set;} 
     public FamiliarDesignado FamiliarDesignado{ get; set;}
     public List<SignoVital> ListaSignoVital {get; set;}
