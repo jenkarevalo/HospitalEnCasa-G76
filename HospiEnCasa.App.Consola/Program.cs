@@ -22,9 +22,32 @@ public class Program
       //BuscarEnfermera();
       //AdicionarFamiliarDesignado();
       //BuscarFamiliarDesignado();
-      EscogerMedico();
+      //EscogerMedico();
+      EscogerEnfermera();
    }
 
+   public static void EscogerEnfermera()
+   {
+      Enfermera enfermera = _repositorioEnfermera.GetEnfermera(2);
+      Console.WriteLine("Enfermera: " + enfermera.Nombre);
+      enfermera.ListaPacientes = _repositorioPaciente.GetPacientesXEnfermera(enfermera.Id).ToList();
+
+      Paciente paciente = new Paciente();
+      paciente.Nombre = "Andres";
+      paciente.Apellido = "Perez";
+      paciente.Telefono = "3001254789";
+      paciente.Genero = Genero.masculino;
+      paciente.Direccion = "calle 188 # 08-15";
+      paciente.Ciudad = "Bogota";
+      paciente.FechaNacimiento = new DateTime(1982, 12, 21);
+      paciente.MedicoId = 2;
+
+      paciente.Enfermera = enfermera;
+      enfermera.ListaPacientes.Add(paciente);
+
+      _repositorioEnfermera.UpdateEnfermera(enfermera);
+      Console.WriteLine("Accion realizada");
+   }
    public static void EscogerMedico()
    {
       Medico medico = _repositorioMedico.GetMedico(2);

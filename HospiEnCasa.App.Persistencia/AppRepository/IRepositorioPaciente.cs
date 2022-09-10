@@ -10,6 +10,7 @@ namespace HospiEnCasa.App.Persistencia
         Paciente GetPaciente(int idPaciente);
         IEnumerable<Paciente> GetAllPacientes();
         IEnumerable<Paciente> GetPacientesXMedico(int idPaciente);
+        IEnumerable<Paciente> GetPacientesXEnfermera(int idPaciente);
         Paciente UpdatePaciente (Paciente paciente);    
     }
 }
