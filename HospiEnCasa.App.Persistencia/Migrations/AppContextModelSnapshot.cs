@@ -182,7 +182,7 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("EnfermeraId")
+                    b.Property<int>("EnfermeraId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("FechaNacimiento")
@@ -191,7 +191,7 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                     b.Property<int>("Genero")
                         .HasColumnType("int");
 
-                    b.Property<int?>("MedicoId")
+                    b.Property<int>("MedicoId")
                         .HasColumnType("int");
 
                     b.Property<string>("Nombre")
@@ -286,11 +286,15 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                 {
                     b.HasOne("HospiEnCasa.App.Dominio.Enfermera", "Enfermera")
                         .WithMany("ListaPacientes")
-                        .HasForeignKey("EnfermeraId");
+                        .HasForeignKey("EnfermeraId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("HospiEnCasa.App.Dominio.Medico", "Medico")
                         .WithMany("ListaPacientes")
-                        .HasForeignKey("MedicoId");
+                        .HasForeignKey("MedicoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Enfermera");
 

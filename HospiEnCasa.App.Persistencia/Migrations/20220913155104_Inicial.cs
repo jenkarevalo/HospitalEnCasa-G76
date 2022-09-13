@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace HospiEnCasa.App.Persistencia.Migrations
 {
-    public partial class prueba_compilacion : Migration
+    public partial class Inicial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -34,7 +34,7 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Codigo = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Registro = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Especialidad = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Apellido = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Telefono = table.Column<string>(type: "nvarchar(max)", nullable: false),
@@ -54,8 +54,8 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                     Direccion = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Ciudad = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     FechaNacimiento = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    MedicoId = table.Column<int>(type: "int", nullable: true),
-                    EnfermeraId = table.Column<int>(type: "int", nullable: true),
+                    MedicoId = table.Column<int>(type: "int", nullable: false),
+                    EnfermeraId = table.Column<int>(type: "int", nullable: false),
                     Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Apellido = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Telefono = table.Column<string>(type: "nvarchar(max)", nullable: false),
@@ -68,12 +68,14 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                         name: "FK_Pacientes_Enfermeras_EnfermeraId",
                         column: x => x.EnfermeraId,
                         principalTable: "Enfermeras",
-                        principalColumn: "Id");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_Pacientes_Medicos_MedicoId",
                         column: x => x.MedicoId,
                         principalTable: "Medicos",
-                        principalColumn: "Id");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(

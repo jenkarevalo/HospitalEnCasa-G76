@@ -34,3 +34,15 @@ C:\Users\Kathe\Desktop\Proyecto MisionTic\HospitalEnCasa-G76\HospiEnCasa.App.Dom
 C:\Users\Kathe\Desktop\Proyecto MisionTic\HospitalEnCasa-G76\HospiEnCasa.App.Dominio\obj\Debug\net6.0\refint\HospiEnCasa.App.Dominio.dll
 C:\Users\Kathe\Desktop\Proyecto MisionTic\HospitalEnCasa-G76\HospiEnCasa.App.Dominio\obj\Debug\net6.0\HospiEnCasa.App.Dominio.pdb
 C:\Users\Kathe\Desktop\Proyecto MisionTic\HospitalEnCasa-G76\HospiEnCasa.App.Dominio\obj\Debug\net6.0\ref\HospiEnCasa.App.Dominio.dll
+C:\Hospitalizacion\HospiEnCasa_2.App\HospitalEnCasa-G76\HospiEnCasa.App.Dominio\bin\Debug\net6.0\HospiEnCasa.App.Dominio.deps.json
+C:\Hospitalizacion\HospiEnCasa_2.App\HospitalEnCasa-G76\HospiEnCasa.App.Dominio\bin\Debug\net6.0\HospiEnCasa.App.Dominio.dll
+C:\Hospitalizacion\HospiEnCasa_2.App\HospitalEnCasa-G76\HospiEnCasa.App.Dominio\bin\Debug\net6.0\HospiEnCasa.App.Dominio.pdb
+C:\Hospitalizacion\HospiEnCasa_2.App\HospitalEnCasa-G76\HospiEnCasa.App.Dominio\obj\Debug\net6.0\HospiEnCasa.App.Dominio.csproj.AssemblyReference.cache
+C:\Hospitalizacion\HospiEnCasa_2.App\HospitalEnCasa-G76\HospiEnCasa.App.Dominio\obj\Debug\net6.0\HospiEnCasa.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Hospitalizacion\HospiEnCasa_2.App\HospitalEnCasa-G76\HospiEnCasa.App.Dominio\obj\Debug\net6.0\HospiEnCasa.App.Dominio.AssemblyInfoInputs.cache
+C:\Hospitalizacion\HospiEnCasa_2.App\HospitalEnCasa-G76\HospiEnCasa.App.Dominio\obj\Debug\net6.0\HospiEnCasa.App.Dominio.AssemblyInfo.cs
+C:\Hospitalizacion\HospiEnCasa_2.App\HospitalEnCasa-G76\HospiEnCasa.App.Dominio\obj\Debug\net6.0\HospiEnCasa.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Hospitalizacion\HospiEnCasa_2.App\HospitalEnCasa-G76\HospiEnCasa.App.Dominio\obj\Debug\net6.0\HospiEnCasa.App.Dominio.dll
+C:\Hospitalizacion\HospiEnCasa_2.App\HospitalEnCasa-G76\HospiEnCasa.App.Dominio\obj\Debug\net6.0\refint\HospiEnCasa.App.Dominio.dll
+C:\Hospitalizacion\HospiEnCasa_2.App\HospitalEnCasa-G76\HospiEnCasa.App.Dominio\obj\Debug\net6.0\HospiEnCasa.App.Dominio.pdb
+C:\Hospitalizacion\HospiEnCasa_2.App\HospitalEnCasa-G76\HospiEnCasa.App.Dominio\obj\Debug\net6.0\ref\HospiEnCasa.App.Dominio.dll

@@ -7,6 +7,8 @@ builder.Services.AddRazorPages();
 
 builder.Services.AddDbContext<HospiEnCasa.App.Persistencia.AppContext>();
 builder.Services.AddScoped<IRepositorioMedico, RepositorioMedico>();
+builder.Services.AddScoped<IRepositorioPaciente, RepositorioPaciente>();
+builder.Services.AddScoped<IRepositorioFamiliarDesignado, RepositorioFamiliarDesignado>();
 
 var app = builder.Build();
 
