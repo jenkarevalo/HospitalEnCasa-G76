@@ -8,8 +8,5 @@ namespace HospiEnCasa.App.Dominio
        public float Valor {get; set;}
        public int PacienteId {get; set;} 
        public Paciente Paciente{get; set;}
-  
-
     }
-
 }

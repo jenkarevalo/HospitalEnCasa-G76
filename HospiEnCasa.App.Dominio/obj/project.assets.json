@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Alexandra\\.nuget\\packages\\": {}
+    "C:\\Users\\Kathe\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Hospitalizacion\\HospiEnCasa_2.App\\HospitalEnCasa-G76\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
       "projectName": "HospiEnCasa.App.Dominio",
-      "projectPath": "C:\\Hospitalizacion\\HospiEnCasa_2.App\\HospitalEnCasa-G76\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\Alexandra\\.nuget\\packages\\",
-      "outputPath": "C:\\Hospitalizacion\\HospiEnCasa_2.App\\HospitalEnCasa-G76\\HospiEnCasa.App.Dominio\\obj\\",
+      "projectPath": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
+      "packagesPath": "C:\\Users\\Kathe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Alexandra\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Kathe\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"

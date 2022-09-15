@@ -39,9 +39,12 @@
                     <td>@familiar.Parentesco</td>
                     <td>@familiar.Correo</td>
                     <td>@familiar.PacienteId</td>
-                    <td><a asp-page="./EditarFamiliarDesignado" asp-route-id="@familiar.Id">Editar</a></td>
-                    <td><a asp-page="./VerFamiliarDesignado" asp-route-id="@familiar.Id">Detalle</a></td>
-                    <td><a asp-page="./EliminarFamiliarDesignado" asp-route-id="@familiar.Id">Eliminar</a></td>
+                    <td><a asp-page="./EditarFamiliarDesignado" asp-route-id="@familiar.Id">
+                    <button type="button" class="btn btn-success">Editar</button></a></td>
+                    <td><a asp-page="./VerFamiliarDesignado" asp-route-id="@familiar.Id">
+                    <button type="button" class="btn btn-success">Informacion</button></a></td>
+                    <td><a asp-page="./EliminarFamiliarDesignado" asp-route-id="@familiar.Id">
+                    <button type="button" class="btn btn-success">Eliminar</button></a></td>
             </tr>
         }
 </form>
