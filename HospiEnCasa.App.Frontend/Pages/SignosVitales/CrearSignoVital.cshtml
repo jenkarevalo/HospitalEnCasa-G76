@@ -1,0 +1,36 @@
+﻿@page
+@model HospiEnCasa.Frontend.Pages.CrearSignoVitalModel
+@{
+    ViewData["Title"]="Crear Signo Vital";
+}
+
+<h1>Crear Paciente</h1>
+<h3>@ViewData["Error"]</h3>
+<form method="POST" class="row g-3">
+  <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+  <div class="col-md-6">
+        <label asp-for="SignoVital.Signo" class="form-label">Signo</label>
+        <select id="txtSigno" asp-for="SignoVital.Signo" class="form-select">
+            <option selected>Seleccione su Opcion</option>
+            <option value="Presión arterial">Presión arterial</option>
+            <option value="Frecuencia cardiaca">Frecuencia cardiaca</option>
+            <option value="Frecuencia respiratoria">Frecuencia respiratoria</option>
+            <option value="Temperatura">Temperatura</option>
+        </select>
+        <span asp-validation-for="SignoVital.Signo"class="text-danger"></span>
+    </div>
+  <div class="col-md-6">
+    <label asp-for="SignoVital.Valor" class="form-label">Valor</label>
+    <input type="text" asp-for="SignoVital.Valor" class="form-control" id="txtValor">
+    <span asp-validation-for="SignoVital.Valor"class="text-danger"></span>
+  </div>
+  <div class="col-12">
+    <div class="col-md-6">
+    <label asp-for="SignoVital.PacienteId" class="form-label">PacienteId</label>
+    <input type="text" asp-for="SignoVital.PacienteId" class="form-control" id="txtPacienteId">
+    <span asp-validation-for="SignoVital.PacienteId"class="text-danger"></span>
+  </div>
+  <div class="col-12">
+    <button type="Guardar" class="btn btn-primary">Guardar</button>
+  </div>
+</form>

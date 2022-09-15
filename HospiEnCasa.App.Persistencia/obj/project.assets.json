@@ -2025,19 +2025,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alexandra\\.nuget\\packages\\": {}
+    "C:\\Users\\FAMILIA CASTAÑEDA\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Hospitalizacion\\HospiEnCasa_2.App\\HospitalEnCasa-G76\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj",
       "projectName": "HospiEnCasa.App.Persistencia",
-      "projectPath": "C:\\Hospitalizacion\\HospiEnCasa_2.App\\HospitalEnCasa-G76\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\Alexandra\\.nuget\\packages\\",
-      "outputPath": "C:\\Hospitalizacion\\HospiEnCasa_2.App\\HospitalEnCasa-G76\\HospiEnCasa.App.Persistencia\\obj\\",
+      "projectPath": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\FAMILIA CASTAÑEDA\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Alexandra\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\FAMILIA CASTAÑEDA\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -2049,8 +2049,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Hospitalizacion\\HospiEnCasa_2.App\\HospitalEnCasa-G76\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj": {
-              "projectPath": "C:\\Hospitalizacion\\HospiEnCasa_2.App\\HospitalEnCasa-G76\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj"
+            "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj": {
+              "projectPath": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj"
             }
           }
         }

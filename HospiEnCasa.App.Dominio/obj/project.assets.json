@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Alexandra\\.nuget\\packages\\": {}
+    "C:\\Users\\FAMILIA CASTAÑEDA\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Hospitalizacion\\HospiEnCasa_2.App\\HospitalEnCasa-G76\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
       "projectName": "HospiEnCasa.App.Dominio",
-      "projectPath": "C:\\Hospitalizacion\\HospiEnCasa_2.App\\HospitalEnCasa-G76\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\Alexandra\\.nuget\\packages\\",
-      "outputPath": "C:\\Hospitalizacion\\HospiEnCasa_2.App\\HospitalEnCasa-G76\\HospiEnCasa.App.Dominio\\obj\\",
+      "projectPath": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
+      "packagesPath": "C:\\Users\\FAMILIA CASTAÑEDA\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Alexandra\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\FAMILIA CASTAÑEDA\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
