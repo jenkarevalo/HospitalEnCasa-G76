@@ -1,0 +1,52 @@
+﻿@page
+@model HospiEnCasa.Frontend.Pages.EditarFamiliarDesignadoModel
+@{
+}
+
+<h1>Editar Informacion Del Familiar</h1>
+<h3>@ViewData["Error"]</h3>
+
+<form method="POST" class="row g-3">
+    <div asp-validatio-summary= "ModeOnly" class= "text-danger"></div>
+    <input type="hidden" asp-for="FamiliarDesignado.Id" />
+    <div class="col-md-4">
+        <label asp-for="FamiliarDesignado.Nombre" class="form-label">Nombre</label>
+        <input type= "Text" asp-for="FamiliarDesignado.Nombre" class="form-control" id="Nombre">
+        <span asp-validation-for= "FamiliarDesignado.Nombre" class = "text-danger"></span>
+    </div>
+    <div class="col-md-4">
+        <label asp-for="FamiliarDesignado.Apellido" class="form-label">Apellido</label>
+        <input type="Text" asp-for="FamiliarDesignado.Apellido" class="form-control" id="Apellido">
+         <span asp-validation-for= "FamiliarDesignado.Apellido" class = "text-danger"></span>
+    </div>
+    <div class="col-md-4">
+        <label asp-for="FamiliarDesignado.Telefono" class="form-label">Telefono</label>
+        <input type="Text" asp-for="FamiliarDesignado.Telefono" class="form-control" id="Telefono">
+         <span asp-validation-for= "FamiliarDesignado.Telefono" class = "text-danger"></span>
+    </div>
+    <div class="col-4">
+        <label asp-for="FamiliarDesignado.Parentesco" class="form-label">Parentesco</label>
+        <input type="text" asp-for="FamiliarDesignado.Parentesco" class="form-control" id="Parentesco">
+         <span asp-validation-for= "FamiliarDesignado.Parentesco" class = "text-danger"></span>
+    </div>
+    <div class="col-md-4">
+        <label asp-for="FamiliarDesignado.Correo" class="form-label">Correo</label>
+        <input type="text" asp-for="FamiliarDesignado.Correo" class="form-control" id="Correo">
+         <span asp-validation-for= "FamiliarDesignado.Correo" class = "text-danger"></span>
+    </div>
+    <div class="col-md-4">
+        <label asp-for="FamiliarDesignado.PacienteId" class="form-label">IdPaciente</label>
+        <input type="text" asp-for="FamiliarDesignado.PacienteId" class="form-control" id="IdPaciente">
+    </div>
+    <div class="col-md-4">
+        <label asp-for="FamiliarDesignado.Genero" class="form-label">Genero</label>
+        <select id="Genero" class="form-select">
+            <option value="0">Masculino</option>
+            <option value ="1">Femenino</option>
+            <option>...</option>
+        </select>
+    </div>
+    <div class="col-12">
+        <button type="submit" class="btn btn-success">Guardar</button>
+    </div>
+</form>

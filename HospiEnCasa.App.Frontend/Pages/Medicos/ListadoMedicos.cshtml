@@ -19,7 +19,7 @@
                 <th scope="col">Genero</th>
                 <th scope="col">Codigo</th>
                 <th scope="col">Especialidad</th>
-                <th scope="col"colspan="3">Opciones</th>
+                <th scope="col"colspan="3" align="center">Opciones</th>
             </tr>
         </thead>
         <tbody>
@@ -37,7 +37,7 @@
                     <td><a asp-page="./EditarMedico" asp-route-id="@medico.Id">
                     <button type="button" class="btn btn-success">Editar</button></a></td>
                     <td><a asp-page="./VerMedico" asp-route-id="@medico.Id">
-                    <button type="button" class="btn btn-success">Detalles</button></a></td>
+                    <button type="button" class="btn btn-success">Informacion</button></a></td>
                     <td><a asp-page="./EliminarMedico" asp-route-id="@medico.Id">
                     <button type="button" class="btn btn-success">Eliminar</button></a></td>
                 </tr>

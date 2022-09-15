@@ -1,0 +1,46 @@
+﻿@page
+@model HospiEnCasa.Frontend.Pages.EditarPacienteModel
+@{
+}
+<h1>Editar Informacion Del Paciente</h1>
+<h3>@ViewData["Error"]</h3>
+
+<form method="POST" class="row g-3">
+    <div asp-validatio-summary= "ModeOnly" class= "text-danger"></div>
+    <input type="hidden" asp-for="Paciente.Id" />
+    <div class="col-md-4">
+        <label asp-for="Paciente.Nombre" class="form-label">Nombre</label>
+        <input type= "Text" asp-for="Paciente.Nombre" class="form-control" id="Nombre">
+    </div>
+    <div class="col-md-4">
+        <label asp-for="Paciente.Apellido" class="form-label">Apellido</label>
+        <input type="Text" asp-for="Paciente.Apellido" class="form-control" id="Apellido">
+    </div>
+    <div class="col-md-4">
+        <label asp-for="Paciente.Telefono" class="form-label">Telefono</label>
+        <input type="Text" asp-for="Paciente.Telefono" class="form-control" id="Telefono">
+    </div>
+    <div class="col-4">
+        <label asp-for="Paciente.Direccion" class="form-label">Direccion</label>
+        <input type="text" asp-for="Paciente.Direccion" class="form-control" id="Direccion">
+    </div>
+    <div class="col-md-4">
+        <label asp-for="Paciente.Ciudad" class="form-label">Ciudad</label>
+        <input type="text" asp-for="Paciente.Ciudad" class="form-control" id="inputCity">
+    </div>
+    <div class="col-md-4">
+        <label asp-for="Paciente.FechaNacimiento" class="form-label">Fecha de Nacimiento</label>
+        <input type="Date" asp-for="Paciente.FechaNacimiento" class="form-control" id="FechaNacimiento">
+    </div>
+    <div class="col-md-4">
+        <label asp-for="Paciente.Genero" class="form-label">Genero</label>
+        <select id="inputCodigo" asp-for= "Paciente.Genero" class="form-select">
+            <option value="0">Masculino</option>
+            <option value ="1">Femenino</option>
+            <option>...</option>
+        </select>
+    </div>
+    <div class="col-12">
+        <button type="submit" class="btn btn-success">Guardar</button>
+    </div>
+</form>

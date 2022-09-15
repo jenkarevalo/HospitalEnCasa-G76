@@ -1,0 +1,50 @@
+﻿@page
+@model HospiEnCasa.Frontend.Pages.ListaFamiliarDesignadoModel
+@{
+    ViewData["Title"]= "Lista Familiar Designado";
+}
+
+<h1>Lista Familiares Designados</h1>
+<hr>
+<a asp-page="CrearFamiliarDesignado">Nuevo Famililiar</a>
+<br> <br>
+
+<form method="POST">
+    <table class="table table-success table-striped">
+    <thead>
+        <tr>
+            
+            <th scope="col">Id</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellido</th>
+            <th scope="col">Telefono</th>
+            <th scope="col">Genero</th>
+            <th scope="col">Parentesco</th>
+            <th scope="col">Correo</th>
+            <th scope ="col">Paciente Id</th>
+            <th scope="col" colspan="3">Opciones</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var familiar in Model.FamiliarDesignado)
+        {
+            <tr>
+                
+                    <td>@familiar.Id</td>
+                    <td>@familiar.Nombre</td>
+                    <td>@familiar.Apellido</td>
+                    <td>@familiar.Telefono</td>
+                    <td>@familiar.Genero</td>
+                    <td>@familiar.Parentesco</td>
+                    <td>@familiar.Correo</td>
+                    <td>@familiar.PacienteId</td>
+                    <td><a asp-page="./EditarFamiliarDesignado" asp-route-id="@familiar.Id">
+                    <button type="button" class="btn btn-success">Editar</button></a></td>
+                    <td><a asp-page="./VerFamiliarDesignado" asp-route-id="@familiar.Id">
+                    <button type="button" class="btn btn-success">Informacion</button></a></td>
+                    <td><a asp-page="./EliminarFamiliarDesignado" asp-route-id="@familiar.Id">
+                    <button type="button" class="btn btn-success">Eliminar</button></a></td>
+            </tr>
+        }
+</form>

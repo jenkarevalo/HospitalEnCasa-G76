@@ -13,7 +13,7 @@ public class Program
    {
       Console.WriteLine("Hello, World!");
 
-      //AdicionarPaciente();
+      AdicionarPaciente();
       //BuscarPaciente();
       //VerListadoPacientes();
       //AdicionarMedico();
@@ -23,7 +23,7 @@ public class Program
       //AdicionarFamiliarDesignado();
       //BuscarFamiliarDesignado();
       //EscogerMedico();
-      EscogerEnfermera();
+      //EscogerEnfermera();
    }
 
    public static void EscogerEnfermera()
@@ -80,6 +80,8 @@ public class Program
       paciente.Direccion = "Calle 256No. 13-48";
       paciente.Ciudad = "Santa Marta";
       paciente.FechaNacimiento = DateTime.Now;
+      paciente.MedicoId = 1;
+      paciente.EnfermeraId = 1;
 
       _repositorioPaciente.AddPaciente(paciente);
       Console.WriteLine("Paciente Adicionado Correctamente");

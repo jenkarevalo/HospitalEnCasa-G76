@@ -1,0 +1,28 @@
+﻿@page
+@model HospiEnCasa.Frontend.Pages.VerFamiliarDesignadoModel
+@{
+    ViewData["Title"]="Ver Familiar Designado";
+}
+
+<h1>-Informacion Familiar Designado</h1>
+
+<a asp-page="./ListaFamiliarDesignado">Lista Familiares Designados</a>
+<br> <br>
+<br> <br>
+
+<form method="POST">
+    <div class="card border-success mb-3" style="max-width: 18rem;">
+        <div class="card-header">Informacion del Familiar</div>
+        <div class="card-body text-success">
+
+            <h6 class="card-title">
+                <label asp-for="FamiliarDesignado.Nombre" class= "control-label"></label>
+                <input type = "text" asp-for= "FamiliarDesignado.Nombre" class = "form-control" readonly/>
+                <label asp-for="FamiliarDesignado.Apellido" class= "control-label"></label>
+                <input type = "text" asp-for= "FamiliarDesignado.Apellido" class = "form-control" readonly/>
+            </h6>
+            <p class="card-text">Telefono: @Model.FamiliarDesignado.Telefono</p>
+            <p class="card-text">Parentesco: @Model.FamiliarDesignado.Parentesco</p>
+            <p class="card-text">Correo:  @Model.FamiliarDesignado.Correo</p>
+        </div>
+</form>

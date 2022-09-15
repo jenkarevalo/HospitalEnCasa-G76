@@ -39,6 +39,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Kathe/Desktop/Proyecto MisionTic/HospitalEnCasa-G76/HospiEnCasa.App.Frontend/Pages/FamiliaresDesignados/CrearFamiliarDesignado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFtaWxpYXJlc0Rlc2lnbmFkb3NcQ3JlYXJGYW1pbGlhckRlc2lnbmFkby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kathe/Desktop/Proyecto MisionTic/HospitalEnCasa-G76/HospiEnCasa.App.Frontend/Pages/FamiliaresDesignados/EditarFamiliarDesignado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFtaWxpYXJlc0Rlc2lnbmFkb3NcRWRpdGFyRmFtaWxpYXJEZXNpZ25hZG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kathe/Desktop/Proyecto MisionTic/HospitalEnCasa-G76/HospiEnCasa.App.Frontend/Pages/FamiliaresDesignados/EliminarFamiliarDesignado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFtaWxpYXJlc0Rlc2lnbmFkb3NcRWxpbWluYXJGYW1pbGlhckRlc2lnbmFkby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kathe/Desktop/Proyecto MisionTic/HospitalEnCasa-G76/HospiEnCasa.App.Frontend/Pages/FamiliaresDesignados/ListaFamiliarDesignado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFtaWxpYXJlc0Rlc2lnbmFkb3NcTGlzdGFGYW1pbGlhckRlc2lnbmFkby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kathe/Desktop/Proyecto MisionTic/HospitalEnCasa-G76/HospiEnCasa.App.Frontend/Pages/FamiliaresDesignados/VerFamiliarDesignado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFtaWxpYXJlc0Rlc2lnbmFkb3NcVmVyRmFtaWxpYXJEZXNpZ25hZG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Kathe/Desktop/Proyecto MisionTic/HospitalEnCasa-G76/HospiEnCasa.App.Frontend/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -61,6 +81,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Kathe/Desktop/Proyecto MisionTic/HospitalEnCasa-G76/HospiEnCasa.App.Frontend/Pages/Medicos/VerMedico.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWNvc1xWZXJNZWRpY28uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kathe/Desktop/Proyecto MisionTic/HospitalEnCasa-G76/HospiEnCasa.App.Frontend/Pages/Pacientes/CrearPacientes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFjaWVudGVzXENyZWFyUGFjaWVudGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kathe/Desktop/Proyecto MisionTic/HospitalEnCasa-G76/HospiEnCasa.App.Frontend/Pages/Pacientes/EditarPaciente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFjaWVudGVzXEVkaXRhclBhY2llbnRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kathe/Desktop/Proyecto MisionTic/HospitalEnCasa-G76/HospiEnCasa.App.Frontend/Pages/Pacientes/EliminarPaciente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFjaWVudGVzXEVsaW1pbmFyUGFjaWVudGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kathe/Desktop/Proyecto MisionTic/HospitalEnCasa-G76/HospiEnCasa.App.Frontend/Pages/Pacientes/ListaPacientes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFjaWVudGVzXExpc3RhUGFjaWVudGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kathe/Desktop/Proyecto MisionTic/HospitalEnCasa-G76/HospiEnCasa.App.Frontend/Pages/Pacientes/VerPaciente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFjaWVudGVzXFZlclBhY2llbnRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Kathe/Desktop/Proyecto MisionTic/HospitalEnCasa-G76/HospiEnCasa.App.Frontend/Pages/Privacy.cshtml]

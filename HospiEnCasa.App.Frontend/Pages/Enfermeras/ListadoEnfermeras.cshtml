@@ -4,7 +4,7 @@
     ViewData["Title"] = "Listado de Enfermeras";
 }
 
-<h1>Listado de enfermeras y enfermeros de la Hospitalizacion en Casa</h1>
+<h1>Listado de enfermeras y enfermeros</h1>
 <hr>
 <a asp-page="CrearEnfermera">Crear Enfermera</a>
 
@@ -17,12 +17,13 @@
                 <th scope="col">Apellido</th>
                 <th scope="col">Telefono</th>
                 <th scope="col">Genero</th>
-                <th scope="col">TarjetaProfecional</th>
+                <th scope="col">TarjetaProfesional</th>
                 <th scope="col">HorasLaborales</th>
                 <th scope="col"colspan="3">Opciones</th>
             </tr>
         </thead>
         <tbody>
+        <br>    
             @foreach (var enfermera in Model.Enfermeras)
             {
                 <tr>
@@ -33,9 +34,12 @@
                     <td>@enfermera.Genero</td>
                     <td>@enfermera.TarjetaProfesional</td>
                     <td>@enfermera.HorasLaborales</td>
-                    <td><a asp-page="./EditarEnfermera" asp-route-id="@enfermera.Id">Editar</a></td>
-                    <td><a asp-page="./VerEnfermera" asp-route-id="@enfermera.Id">Detalle</a></td>
-                    <td><a asp-page="./EliminarEnfermera" asp-route-id="@enfermera.Id">Eliminar</a></td>
+                    <td><a asp-page="./EditarEnfermera" asp-route-id="@enfermera.Id">
+                    <button type="button" class="btn btn-success">Editar</button></a></td>
+                    <td><a asp-page="./VerEnfermera" asp-route-id="@enfermera.Id">
+                    <button type="button" class="btn btn-success">Informacion</button></a></td>
+                    <td><a asp-page="./EliminarEnfermera" asp-route-id="@enfermera.Id">
+                    <button type="button" class="btn btn-success">Eliminar</button></a></td>
                 </tr>
             }
         </tbody>
