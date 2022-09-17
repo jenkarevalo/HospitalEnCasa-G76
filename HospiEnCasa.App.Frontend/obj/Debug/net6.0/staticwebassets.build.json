@@ -1,10 +1,17 @@
 {
   "Version": 1,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "Hash": "x1YXNt4+OrgyAD6JlwNM8R32I4wOkSnH9HkpiArMZkA=",
 =======
   "Hash": "deEnmRrXWsGNV+urgZ93ubFuMyHYPIngKMdIX+qIjYs=",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+  "Hash": "deEnmRrXWsGNV+urgZ93ubFuMyHYPIngKMdIX+qIjYs=",
+=======
+  "Hash": "xB8lCxDRjiFKJQY+IxUtQ9UjeeyZzgbEbb+INsUy+Bs=",
+>>>>>>> main
+>>>>>>> develop
   "Source": "HospiEnCasa.App.Frontend",
   "BasePath": "_content/HospiEnCasa.App.Frontend",
   "Mode": "Default",
@@ -15,10 +22,17 @@
       "Name": "HospiEnCasa.App.Frontend\\wwwroot",
       "Source": "HospiEnCasa.App.Frontend",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
 =======
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+      "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "Pattern": "**"
     }
@@ -26,16 +40,28 @@
   "Assets": [
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\obj\\Debug\\net6.0\\scopedcss\\bundle\\HospiEnCasa.App.Frontend.styles.css",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\obj\\Debug\\net6.0\\scopedcss\\bundle\\HospiEnCasa.App.Frontend.styles.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\obj\\Debug\\net6.0\\scopedcss\\bundle\\HospiEnCasa.App.Frontend.styles.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "HospiEnCasa.App.Frontend.styles.css",
       "AssetKind": "All",
@@ -47,6 +73,17 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "OriginalItemSpec": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\obj\\Debug\\net6.0\\scopedcss\\bundle\\HospiEnCasa.App.Frontend.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\HospiEnCasa.App.Frontend.bundle.scp.css",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+=======
+>>>>>>> develop
       "OriginalItemSpec": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\obj\\Debug\\net6.0\\scopedcss\\bundle\\HospiEnCasa.App.Frontend.styles.css"
     },
     {
@@ -54,6 +91,7 @@
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+<<<<<<< HEAD
 =======
       "OriginalItemSpec": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\obj\\Debug\\net6.0\\scopedcss\\bundle\\HospiEnCasa.App.Frontend.styles.css"
     },
@@ -63,6 +101,9 @@
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "HospiEnCasa.App.Frontend.bundle.scp.css",
       "AssetKind": "All",
@@ -74,6 +115,17 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "OriginalItemSpec": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\HospiEnCasa.App.Frontend.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\css\\site.css",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "OriginalItemSpec": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\HospiEnCasa.App.Frontend.bundle.scp.css"
     },
     {
@@ -81,6 +133,7 @@
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "OriginalItemSpec": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\HospiEnCasa.App.Frontend.bundle.scp.css"
     },
@@ -90,6 +143,9 @@
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -104,16 +160,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\favicon.ico",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\favicon.ico",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\favicon.ico",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -128,16 +196,79 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\js\\site.js",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\images\\DoctoraPrincipal.jpg",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+      "BasePath": "_content/HospiEnCasa.App.Frontend",
+      "RelativePath": "images/DoctoraPrincipal.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\DoctoraPrincipal.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\images\\Logo.jpg",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+      "BasePath": "_content/HospiEnCasa.App.Frontend",
+      "RelativePath": "images/Logo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Logo.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\images\\Medicos.jpg",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+      "BasePath": "_content/HospiEnCasa.App.Frontend",
+      "RelativePath": "images/Medicos.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Medicos.jpg"
+    },
+    {
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\js\\site.js",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\js\\site.js",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -152,16 +283,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -176,16 +319,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -200,16 +355,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -224,16 +391,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -248,16 +427,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -272,16 +463,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -296,16 +499,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -320,16 +535,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -344,16 +571,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -368,16 +607,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -392,16 +643,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -416,16 +679,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -440,16 +715,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -464,16 +751,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -488,16 +787,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -512,16 +823,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -536,16 +859,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -560,16 +895,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -584,16 +931,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -608,16 +967,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -632,16 +1003,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -656,16 +1039,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -680,16 +1075,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -704,16 +1111,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -728,16 +1147,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -752,16 +1183,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -776,16 +1219,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -800,16 +1255,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -824,16 +1291,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -848,16 +1327,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -872,16 +1363,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -896,16 +1399,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -920,16 +1435,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -944,16 +1471,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -968,16 +1507,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -992,16 +1543,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1016,16 +1579,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1040,16 +1615,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1064,16 +1651,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1088,16 +1687,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1112,16 +1723,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1136,16 +1759,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1160,16 +1795,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1184,16 +1831,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1208,16 +1867,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1232,16 +1903,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1256,16 +1939,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1280,16 +1975,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1304,16 +2011,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1328,16 +2047,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1352,16 +2083,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1376,16 +2119,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1400,16 +2155,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1424,16 +2191,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1448,16 +2227,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1472,16 +2263,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1496,16 +2299,28 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "HospiEnCasa.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
+=======
+>>>>>>> develop
       "Identity": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\wwwroot\\",
+<<<<<<< HEAD
 =======
       "Identity": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "HospiEnCasa.App.Frontend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Frontend\\wwwroot\\",
 >>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
+>>>>>>> main
+>>>>>>> develop
       "BasePath": "_content/HospiEnCasa.App.Frontend",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

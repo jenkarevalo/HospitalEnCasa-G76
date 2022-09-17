@@ -1,12 +1,17 @@
 ﻿@page
 @model HospiEnCasa.App.Frontend.Pages.ListadoEnfermerasModel
 @{
-    ViewData["Title"] = "Listado de Enfermeras";
+    ViewData["Title"] = "Enfermeras";
 }
 
 <h1>Listado de enfermeras y enfermeros</h1>
 <hr>
-<a asp-page="CrearEnfermera">Crear Enfermera</a>
+<div class="col-12">
+    <button type="button" class="btn btn-outline-success">
+        <a asp-page="CrearEnfermera">Crear Enfermera</a>
+    </button>
+</div>
+<br> <br>
 
 <form method="POST">
     <table class="table table-success table-striped">

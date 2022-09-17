@@ -1,12 +1,16 @@
 ﻿@page
 @model HospiEnCasa.App.Frontend.Pages.ListadoMedicosModel
 @{
-    ViewData["Title"] = "Lista de Medicos";
+    ViewData["Title"] = "Medicos";
 }
 
 <h1>Listado de Medicos</h1>
 <hr>
-<a asp-page="CrearMedico">Adicionar nuevo Medico</a>
+<div class="col-12">
+    <button type="button" class="btn btn-outline-success">
+        <a asp-page="CrearMedico">Adicionar nuevo Medico</a>
+    </button>
+</div>
 
 <form method="POST">
     <table class="table table-success table-striped">
@@ -23,7 +27,7 @@
             </tr>
         </thead>
         <tbody>
-        <hr>
+        <br>
             @foreach (var medico in Model.Medicos)
             {
                 <tr>

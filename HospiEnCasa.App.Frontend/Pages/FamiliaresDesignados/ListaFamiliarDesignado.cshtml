@@ -1,12 +1,16 @@
 ﻿@page
 @model HospiEnCasa.Frontend.Pages.ListaFamiliarDesignadoModel
 @{
-    ViewData["Title"]= "Lista Familiar Designado";
+    ViewData["Title"]= "Familiares Designados";
 }
 
 <h1>Lista Familiares Designados</h1>
 <hr>
-<a asp-page="CrearFamiliarDesignado">Nuevo Famililiar</a>
+<div class="col-12">
+    <button type="button" class="btn btn-outline-success">
+        <a asp-page="CrearFamiliarDesignado">Nuevo Familiar</a>
+    </button>
+</div>
 <br> <br>
 
 <form method="POST">

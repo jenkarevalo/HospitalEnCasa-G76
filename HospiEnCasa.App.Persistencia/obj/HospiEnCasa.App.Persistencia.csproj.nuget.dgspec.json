@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj": {}
   },
   "projects": {
@@ -16,22 +15,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kathe\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-    "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
-        "projectName": "HospiEnCasa.App.Dominio",
-        "projectPath": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\FAMILIA CASTAÑEDA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Dominio\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\FAMILIA CASTAÑEDA\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> ee26922becacacb49284d3905306827916c196eb
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -70,11 +53,10 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-<<<<<<< HEAD
     "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -86,19 +68,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kathe\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-    "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj",
-        "projectName": "HospiEnCasa.App.Persistencia",
-        "projectPath": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\FAMILIA CASTAÑEDA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Persistencia\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\FAMILIA CASTAÑEDA\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> ee26922becacacb49284d3905306827916c196eb
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -110,13 +79,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-<<<<<<< HEAD
               "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj": {
                 "projectPath": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj"
-=======
-              "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj"
->>>>>>> ee26922becacacb49284d3905306827916c196eb
               }
             }
           }
@@ -168,7 +132,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
