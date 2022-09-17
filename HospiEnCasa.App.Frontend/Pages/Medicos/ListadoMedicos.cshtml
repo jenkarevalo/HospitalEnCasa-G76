@@ -1,16 +1,24 @@
 ﻿@page
 @model HospiEnCasa.App.Frontend.Pages.ListadoMedicosModel
 @{
+<<<<<<< HEAD
     ViewData["Title"] = "Medicos";
+=======
+    ViewData["Title"] = "Listado de Medicos";
+>>>>>>> parent of 002b127 (cambios en frontend)
 }
 
-<h1>Listado de Medicos</h1>
+<h1>Listado de Medicos de la Hospitalizacion en Casa</h1>
 <hr>
+<<<<<<< HEAD
 <div class="col-12">
     <button type="button" class="btn btn-outline-success">
         <a asp-page="CrearMedico">Adicionar nuevo Medico</a>
     </button>
 </div>
+=======
+<a asp-page="CrearMedico">Crear Medico</a>
+>>>>>>> parent of 002b127 (cambios en frontend)
 
 <form method="POST">
     <table class="table table-success table-striped">
@@ -27,7 +35,10 @@
             </tr>
         </thead>
         <tbody>
+<<<<<<< HEAD
         <br>
+=======
+>>>>>>> parent of 002b127 (cambios en frontend)
             @foreach (var medico in Model.Medicos)
             {
                 <tr>
@@ -38,12 +49,18 @@
                     <td>@medico.Genero</td>
                     <td>@medico.Codigo</td>
                     <td>@medico.Especialidad</td>
+<<<<<<< HEAD
                     <td><a asp-page="./EditarMedico" asp-route-id="@medico.Id">
                     <button type="button" class="btn btn-success">Editar</button></a></td>
                     <td><a asp-page="./VerMedico" asp-route-id="@medico.Id">
                     <button type="button" class="btn btn-success">Informacion</button></a></td>
                     <td><a asp-page="./EliminarMedico" asp-route-id="@medico.Id">
                     <button type="button" class="btn btn-success">Eliminar</button></a></td>
+=======
+                    <td><a asp-page="./EditarMedico" asp-route-id="@medico.Id">Editar</a></td>
+                    <td><a asp-page="./VerMedico" asp-route-id="@medico.Id">Detalle</a></td>
+                    <td><a asp-page="./EliminarMedico" asp-route-id="@medico.Id">Eliminar</a></td>
+>>>>>>> parent of 002b127 (cambios en frontend)
                 </tr>
             }
         </tbody>
