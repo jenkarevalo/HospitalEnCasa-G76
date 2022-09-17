@@ -46,3 +46,15 @@ C:\Hospitalizacion\HospiEnCasa_2.App\HospitalEnCasa-G76\HospiEnCasa.App.Dominio\
 C:\Hospitalizacion\HospiEnCasa_2.App\HospitalEnCasa-G76\HospiEnCasa.App.Dominio\obj\Debug\net6.0\refint\HospiEnCasa.App.Dominio.dll
 C:\Hospitalizacion\HospiEnCasa_2.App\HospitalEnCasa-G76\HospiEnCasa.App.Dominio\obj\Debug\net6.0\HospiEnCasa.App.Dominio.pdb
 C:\Hospitalizacion\HospiEnCasa_2.App\HospitalEnCasa-G76\HospiEnCasa.App.Dominio\obj\Debug\net6.0\ref\HospiEnCasa.App.Dominio.dll
+C:\Users\FAMILIA CASTAÑEDA\OneDrive\escritorio\Documentos\UML\HospitalEnCasa-G76-main\HospiEnCasa.App.Dominio\bin\Debug\net6.0\HospiEnCasa.App.Dominio.deps.json
+C:\Users\FAMILIA CASTAÑEDA\OneDrive\escritorio\Documentos\UML\HospitalEnCasa-G76-main\HospiEnCasa.App.Dominio\bin\Debug\net6.0\HospiEnCasa.App.Dominio.dll
+C:\Users\FAMILIA CASTAÑEDA\OneDrive\escritorio\Documentos\UML\HospitalEnCasa-G76-main\HospiEnCasa.App.Dominio\bin\Debug\net6.0\HospiEnCasa.App.Dominio.pdb
+C:\Users\FAMILIA CASTAÑEDA\OneDrive\escritorio\Documentos\UML\HospitalEnCasa-G76-main\HospiEnCasa.App.Dominio\obj\Debug\net6.0\HospiEnCasa.App.Dominio.csproj.AssemblyReference.cache
+C:\Users\FAMILIA CASTAÑEDA\OneDrive\escritorio\Documentos\UML\HospitalEnCasa-G76-main\HospiEnCasa.App.Dominio\obj\Debug\net6.0\HospiEnCasa.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FAMILIA CASTAÑEDA\OneDrive\escritorio\Documentos\UML\HospitalEnCasa-G76-main\HospiEnCasa.App.Dominio\obj\Debug\net6.0\HospiEnCasa.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\FAMILIA CASTAÑEDA\OneDrive\escritorio\Documentos\UML\HospitalEnCasa-G76-main\HospiEnCasa.App.Dominio\obj\Debug\net6.0\HospiEnCasa.App.Dominio.AssemblyInfo.cs
+C:\Users\FAMILIA CASTAÑEDA\OneDrive\escritorio\Documentos\UML\HospitalEnCasa-G76-main\HospiEnCasa.App.Dominio\obj\Debug\net6.0\HospiEnCasa.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\FAMILIA CASTAÑEDA\OneDrive\escritorio\Documentos\UML\HospitalEnCasa-G76-main\HospiEnCasa.App.Dominio\obj\Debug\net6.0\HospiEnCasa.App.Dominio.dll
+C:\Users\FAMILIA CASTAÑEDA\OneDrive\escritorio\Documentos\UML\HospitalEnCasa-G76-main\HospiEnCasa.App.Dominio\obj\Debug\net6.0\refint\HospiEnCasa.App.Dominio.dll
+C:\Users\FAMILIA CASTAÑEDA\OneDrive\escritorio\Documentos\UML\HospitalEnCasa-G76-main\HospiEnCasa.App.Dominio\obj\Debug\net6.0\HospiEnCasa.App.Dominio.pdb
+C:\Users\FAMILIA CASTAÑEDA\OneDrive\escritorio\Documentos\UML\HospitalEnCasa-G76-main\HospiEnCasa.App.Dominio\obj\Debug\net6.0\ref\HospiEnCasa.App.Dominio.dll

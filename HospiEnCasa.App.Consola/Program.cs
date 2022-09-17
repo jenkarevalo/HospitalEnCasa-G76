@@ -9,11 +9,12 @@ public class Program
    private static IRepositorioMedico _repositorioMedico = new RepositorioMedico(new HospiEnCasa.App.Persistencia.AppContext());
    private static IRepositorioEnfermera _repositorioEnfermera = new RepositorioEnfermera(new HospiEnCasa.App.Persistencia.AppContext());
    private static IRepositorioFamiliarDesignado _repositorioFamiliarDesignado = new RepositorioFamiliarDesignado(new HospiEnCasa.App.Persistencia.AppContext());
+   private static IRepositorioSignoVital _repositorioSignoVital = new RepositorioSignoVital(new HospiEnCasa.App.Persistencia.AppContext());
    private static void Main(String[] args)
    {
       Console.WriteLine("Hello, World!");
 
-      AdicionarPaciente();
+      //AdicionarPaciente();
       //BuscarPaciente();
       //VerListadoPacientes();
       //AdicionarMedico();
@@ -24,6 +25,8 @@ public class Program
       //BuscarFamiliarDesignado();
       //EscogerMedico();
       //EscogerEnfermera();
+      AdicionarSignoVital();
+      //BuscarSignoVital();
    }
 
    public static void EscogerEnfermera()
@@ -171,5 +174,22 @@ public class Program
       var familiarDesignado = _repositorioFamiliarDesignado.GetFamiliarDesignado(4);
       Console.WriteLine(familiarDesignado.Nombre + " " + familiarDesignado.Apellido);
       Console.WriteLine("Parentesco: " + familiarDesignado.Parentesco);
+   }
+
+   static void AdicionarSignoVital()
+   {
+      Console.WriteLine ("Adicionando un Signo vital");
+      SignoVital signoVital = new SignoVital();
+      signoVital.PacienteId = 1;
+      signoVital.Signo ="Temperatura";
+      signoVital.Valor = 37;
+      _repositorioSignoVital.AddSignoVital(signoVital);
+      Console.WriteLine("Signo vital Correctamente");
+   }
+   static void BuscarSignoVital()
+   {
+      var signoVital =_repositorioSignoVital.GetSignoVital(1);
+      Console.WriteLine("Signo: " + signoVital.Signo);
+      Console.WriteLine("Valor: " + signoVital.Valor);
    }
 }

@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "aIR3wzwNweP8vtwzEBjn/Du06dqhJnI+qqzNPfG0Yx2IdF3bKF851wORPbU+NY8NxnOmC64zTbSFQW7Ym4pdDA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
+=======
+  "dgSpecHash": "qnz0DBX1lvPkwjKLh9KOMfI+ttXnC/8buF5mXwLp8lNg+6yoj66TC1guEZbb//Ck4JXRb5boxXTNJLsSPG8mgg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\FAMILIA CASTAÑEDA\\OneDrive\\escritorio\\Documentos\\UML\\HospitalEnCasa-G76-main\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
+>>>>>>> ee26922becacacb49284d3905306827916c196eb
   "expectedPackageFiles": [],
   "logs": []
 }
