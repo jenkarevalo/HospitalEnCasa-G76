@@ -8,7 +8,14 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HospiEnCasa.App.Dominio
 <<<<<<< HEAD
+<<<<<<< HEAD
+build_property.ProjectDir = C:\Users\Kathe\Desktop\Proyecto MisionTic\HospitalEnCasa-G76\HospiEnCasa.App.Dominio\
+=======
+build_property.ProjectDir = C:\Users\FAMILIA CASTAÑEDA\OneDrive\escritorio\Documentos\UML\HospitalEnCasa-G76-main\HospiEnCasa.App.Dominio\
+>>>>>>> ee26922becacacb49284d3905306827916c196eb
+=======
 build_property.ProjectDir = C:\Users\FAMILIA CASTAÑEDA\OneDrive\escritorio\Documentos\UML\HospitalEnCasa-G76-main\HospiEnCasa.App.Dominio\
 =======
 build_property.ProjectDir = C:\Users\Kathe\Desktop\Proyecto MisionTic\HospitalEnCasa-G76\HospiEnCasa.App.Dominio\
 >>>>>>> main
+>>>>>>> develop
