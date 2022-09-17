@@ -8,16 +8,14 @@ namespace HospiEnCasa.Frontend.Pages
     public class ListaPacientesModel : PageModel
     {
         private static IRepositorioPaciente _repositorioPaciente = new RepositorioPaciente(new HospiEnCasa.App.Persistencia.AppContext());
-        public IEnumerable<Paciente> Paciente { get; set; }
+        public IEnumerable<Paciente> Pacientes { get; set; }
 
         public ListaPacientesModel()
-        {
-
-        }
+        {}
 
         public void OnGet()
         {
-            this.Paciente = _repositorioPaciente.GetAllPacientes();
+            this.Pacientes = _repositorioPaciente.GetAllPacientes();
         }
     }
 }
