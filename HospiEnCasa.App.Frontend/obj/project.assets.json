@@ -1942,19 +1942,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kathe\\.nuget\\packages\\": {}
+    "C:\\Users\\Alexandra\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\HospiEnCasa.App.Frontend.csproj",
+      "projectUniqueName": "C:\\Hospitalizacion\\HospiEnCasa_2.App\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\HospiEnCasa.App.Frontend.csproj",
       "projectName": "HospiEnCasa.App.Frontend",
-      "projectPath": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\HospiEnCasa.App.Frontend.csproj",
-      "packagesPath": "C:\\Users\\Kathe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\obj\\",
+      "projectPath": "C:\\Hospitalizacion\\HospiEnCasa_2.App\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\HospiEnCasa.App.Frontend.csproj",
+      "packagesPath": "C:\\Users\\Alexandra\\.nuget\\packages\\",
+      "outputPath": "C:\\Hospitalizacion\\HospiEnCasa_2.App\\HospitalEnCasa-G76\\HospiEnCasa.App.Frontend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Kathe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Alexandra\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -1966,11 +1966,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj": {
-              "projectPath": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj"
+            "C:\\Hospitalizacion\\HospiEnCasa_2.App\\HospitalEnCasa-G76\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj": {
+              "projectPath": "C:\\Hospitalizacion\\HospiEnCasa_2.App\\HospitalEnCasa-G76\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj"
             },
-            "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj": {
-              "projectPath": "C:\\Users\\Kathe\\Desktop\\Proyecto MisionTic\\HospitalEnCasa-G76\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj"
+            "C:\\Hospitalizacion\\HospiEnCasa_2.App\\HospitalEnCasa-G76\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj": {
+              "projectPath": "C:\\Hospitalizacion\\HospiEnCasa_2.App\\HospitalEnCasa-G76\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj"
             }
           }
         }
