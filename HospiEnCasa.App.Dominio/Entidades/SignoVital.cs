@@ -14,8 +14,5 @@ namespace HospiEnCasa.App.Dominio
        [Required(ErrorMessage=" El campo es obligatorio")]
        public int PacienteId {get; set;} 
        public Paciente Paciente{get; set;}
-  
-
     }
-
 }

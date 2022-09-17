@@ -4,7 +4,7 @@
     ViewData["Title"] = "Crear Medico";
 }
 
-<h1>Crear Medico</h1>
+<h1>Adicionar nuevo Medico</h1>
 <h2>@ViewData["Error"]</h2>
 <form method="POST" class="row g-3">
     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -16,7 +16,6 @@
     <div class="col-md-6">
         <label asp-for="Medico.Apellido" class="form-label">Apellido</label>
         <input type="text" asp-for="Medico.Apellido" class="form-control" id="txtApellido">
-
         <span asp-validation-for="Medico.Apellido" class="text-danger"></span>
     </div>
     <div class="col-6">
@@ -42,6 +41,6 @@
         </select>
     </div>
     <div class="col-12">
-        <button type="submit" class="btn btn-primary">Guardar</button>
+        <button type="submit" class="btn btn-success">Guardar</button>
     </div>
 </form>

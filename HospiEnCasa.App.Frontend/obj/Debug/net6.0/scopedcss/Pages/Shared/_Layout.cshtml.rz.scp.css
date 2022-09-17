@@ -8,7 +8,7 @@ a.navbar-brand[b-vknwb4m9cw] {
 }
 
 a[b-vknwb4m9cw] {
-  color: #0077cc;
+  color: #111111;
 }
 
 .btn-primary[b-vknwb4m9cw] {
@@ -23,8 +23,14 @@ a[b-vknwb4m9cw] {
   border-color: #1861ac;
 }
 
+.container2[b-vknwb4m9cw] {
+  margin: 0;
+  padding: 10px;
+  box-sizing: content-box;
+}
+
 .border-top[b-vknwb4m9cw] {
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #020202;
 }
 .border-bottom[b-vknwb4m9cw] {
   border-bottom: 1px solid #e5e5e5;
@@ -45,4 +51,8 @@ button.accept-policy[b-vknwb4m9cw] {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+  background-color: #137c42;
+  border-color: #1f813d;
 }
+
+
