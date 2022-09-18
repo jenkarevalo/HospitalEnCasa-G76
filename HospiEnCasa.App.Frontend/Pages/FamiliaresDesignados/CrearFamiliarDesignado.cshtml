@@ -1,10 +1,10 @@
 ﻿@page
 @model HospiEnCasa.Frontend.Pages.CrearFamiliarDesignadoModel
 @{
-    ViewData["Title"]= "Crear Familiar Designado";
+    ViewData["Title"]= "Adicionar Familiar Designado";
 }
 
-<h1>Crear Familiar</h1>
+<h1>Adicionar nuevo Familiar</h1>
 <h3>@ViewData["Error"]</h3>
 
 <form method="POST" class="row g-3">
@@ -41,12 +41,11 @@
     <div class="col-md-4">
         <label asp-for="FamiliarDesignado.Genero" class="form-label">Genero</label>
         <select id="Genero" class="form-select">
-            <option value="0">Masculino...</option>
-            <option value ="1">Femenino...</option>
-            <option>...</option>
+            <option value="0">Masculino</option>
+            <option value ="1">Femenino</option>
         </select>
     </div>
     <div class="col-12">
-        <button type="submit" class="btn btn-primary">Guardar</button>
+        <button type="submit" class="btn btn-success">Guardar</button>
     </div>
 </form>

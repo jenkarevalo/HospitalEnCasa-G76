@@ -8,13 +8,11 @@
 
 <a asp-page="./ListaPacientes">Lista de Pacientes</a>
 <br> <br>
-<br> <br>
 
 <form method="POST">
     <div class="card border-success mb-3" style="max-width: 18rem;">
         <div class="card-header">Informacion del Paciente</div>
         <div class="card-body text-success">
-
             <h6 class="card-title">
                 <label asp-for="Paciente.Nombre" class= "control-label"></label>
                 <input type = "text" asp-for= "Paciente.Nombre" class = "form-control" readonly/>
@@ -25,12 +23,5 @@
             <p class="card-text">Parentesco: @Model.Paciente.Ciudad</p>
             <p class="card-text">Direccion:  @Model.Paciente.Direccion</p>
             <p class="card-text">Fecha de Nacimiento:  @Model.Paciente.FechaNacimiento</p>
-
-
         </div>
-
-
-
-
-
 </form>
