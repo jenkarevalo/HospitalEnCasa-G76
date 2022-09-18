@@ -8,7 +8,7 @@ a.navbar-brand {
 }
 
 a {
-  color: #0077cc;
+  color: #111111;
 }
 
 .btn-primary {
@@ -23,8 +23,14 @@ a {
   border-color: #1861ac;
 }
 
+.container2 {
+  margin: 0;
+  padding: 10px;
+  box-sizing: content-box;
+}
+
 .border-top {
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #020202;
 }
 .border-bottom {
   border-bottom: 1px solid #e5e5e5;
@@ -45,4 +51,6 @@ button.accept-policy {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+  background-color: #137c42;
+  border-color: #1f813d;
 }

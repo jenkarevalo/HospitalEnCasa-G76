@@ -19,7 +19,6 @@ namespace HospiEnCasa.App.Frontend.Pages
         }
         public ActionResult OnPost()
         {
-            Console.WriteLine("Testing");
             try{
                 Medico medicoActualizado = _repositorioMedico.UpdateMedico(Medico);
                 return RedirectToPage("./ListadoMedicos");

@@ -1,12 +1,16 @@
 ﻿@page
 @model HospiEnCasa.Frontend.Pages.ListaPacientesModel
 @{
-    ViewData["Title"] = "Lista de Pacientes";
+    ViewData["Title"] = "Pacientes";
 }
 
 <h1>Listado de Pacientes</h1>
 <hr>
-<a asp-page="CrearPacientes">Nuevo Paciente</a>
+<div class="col-12">
+    <button type="button" class="btn btn-outline-success">
+        <a asp-page="CrearPacientes">Nuevo Paciente</a>
+    </button>
+</div>
 <br> <br>
 
 <form method="POST">
@@ -27,10 +31,10 @@
             </tr>
         </thead>
         <tbody>
-            @foreach (var paciente in Model.Paciente)
+            @foreach (var paciente in Model.Pacientes)
             {
                 <tr>
-
+                    
                     <td>@paciente.Id</td>
                     <td>@paciente.Nombre</td>
                     <td>@paciente.Apellido</td>
@@ -39,11 +43,14 @@
                     <td>@paciente.Ciudad</td>
                     <td>@paciente.Direccion</td>
                     <td>@paciente.FechaNacimiento</td>
-                    <td><a asp-page="./EditarPaciente" asp-route-id="@paciente.Id">Editar</a></td>
-                    <td><a asp-page="./VerPaciente" asp-route-id="@paciente.Id">Buscar</a></td>
-                    <td><a asp-page="./EliminarPaciente" asp-route-id="@paciente.Id">Eliminar</a></td>
-               </tr>
-
+                    <td><a asp-page="./EditarPaciente" asp-route-id="@paciente.Id">
+                    <button type="button" class="btn btn-success">Editar</button></a></td>
+                    <td><a asp-page="./VerPaciente" asp-route-id="@paciente.Id">
+                    <button type="button" class="btn btn-success">informacion</button></a></td>
+                    <td><a asp-page="./EliminarPaciente" asp-route-id="@paciente.Id">
+                    <button type="button" class="btn btn-success">Eliminar</button></a></td>
+                </tr>
             }
-       
+        </tbody>
+    </table>    
 </form>
