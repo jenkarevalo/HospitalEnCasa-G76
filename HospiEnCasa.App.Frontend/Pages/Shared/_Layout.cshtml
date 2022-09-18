@@ -12,9 +12,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">
-                    <img src="~/images/Logo.jpg" alt="Hospital en casa" width="200" height="100" />
-                </a>
+                <a class="navbar-brand" asp-area="" asp-page="/Index">HOSPITALIZACIÓN EN CASA</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -38,15 +36,16 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="./FamiliaresDesignados/ListaFamiliarDesignado">Lista De Familiares</a>
-                        </li>                                    
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="./Usuarios/Login">Login</a>
+                        </li>                                                           
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container2">
-        <div class="bg-image" style="
-    background-image: url('https://um2012.s3.us-west-2.amazonaws.com/u5699226/visuals/6276f9cc-14c7-40e7-a00f-f397f7f3864b.jpg'); min-height: 70vh;">       
+    <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
