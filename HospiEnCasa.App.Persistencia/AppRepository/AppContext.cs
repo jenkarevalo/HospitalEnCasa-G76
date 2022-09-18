@@ -12,7 +12,8 @@ namespace HospiEnCasa.App.Persistencia
        public DbSet<FamiliarDesignado> Familiar {get; set;} 
        public DbSet<Historia> Historias {get; set;} 
        public DbSet<SignoVital> SignosVitales {get; set;} 
-       public DbSet<SugerenciaCuidado> SugerenciasCuidados {get; set;} 
+       public DbSet<SugerenciaCuidado> SugerenciasCuidados {get; set;}
+       public DbSet<Usuario> Usuarios {get; set; }
 
 
 
