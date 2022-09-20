@@ -23,10 +23,11 @@
         <label asp-for="Medico.Telefono" class="form-label">Telefono</label>
         <input type="text" asp-for="Medico.Telefono" class="form-control" id="txtTelefono" placeholder="Fijo o Celular"> 
     </div>
-    <div class="col-6">
+    <div class="col-6 position-relative">
         <label asp-for="Medico.Especialidad" class="form-label">Especialidad</label>
-        <input type="text" asp-for="Medico.Especialidad" class="form-control" id="txtEspecialidad">
-        <span asp-validation-for="Medico.Especialidad" class="text-danger"></span>
+        <input type="text" asp-for="Medico.Especialidad" class="form-control" id="txtEspecialidad" required>
+        <div class="valid-tooltip">¡Campo válido!</div>
+        <div class="invalid-tooltip">Debe completar los datos.</div>
     </div>
     <div class="col-md-6">
         <label asp-for="Medico.Codigo" class="form-label">Codigo</label>

@@ -8,6 +8,7 @@ namespace HospiEnCasa.Frontend.Pages
     public class VerFamiliarDesignadoModel : PageModel
     { private static IRepositorioFamiliarDesignado _repositorioFamiliarDesignado = new RepositorioFamiliarDesignado(new HospiEnCasa.App.Persistencia.AppContext());
     
+    [BindProperty]
     public FamiliarDesignado FamiliarDesignado {get; set;}
 
     public VerFamiliarDesignadoModel()

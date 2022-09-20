@@ -27,7 +27,8 @@
                             <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
                         </li>
                         <li>
-                            <a class="nav-link text-dark" asp-area="" asp-page="./Pacientes/ListaPacientes">Pacientes</a>
+                            <a class="nav-link text-dark" asp-area=""
+                                asp-page="./Pacientes/ListaPacientes">Pacientes</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="./Medicos/ListadoMedicos">Medicos</a>
@@ -40,33 +41,35 @@
                             <a class="nav-link text-dark" asp-area=""
                                 asp-page="./FamiliaresDesignados/ListaFamiliarDesignado">Familiares Designados</a>
                         </li>
-                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="./SignosVitales/ListadoSignosVitales">Signos Vitales</a>
-                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area=""
+                                asp-page="./SignosVitales/ListadoSignosVitales">Signos Vitales</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
     <div class="container2">
-        <div class="bg-image" style="
-    background-image: url('https://um2012.s3.us-west-2.amazonaws.com/u5699226/visuals/6276f9cc-14c7-40e7-a00f-f397f7f3864b.jpg'); min-height: 70vh;">       
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2022 - HospiEnCasa.App.Frontend - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        <div class="bg-image"
+            style="
+    background-image: url('https://um2012.s3.us-west-2.amazonaws.com/u5699226/visuals/6276f9cc-14c7-40e7-a00f-f397f7f3864b.jpg'); min-height: 70vh;">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
         </div>
-    </footer>
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+        <footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; 2022 - HospiEnCasa.App.Frontend - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            </div>
+        </footer>
 
-    @await RenderSectionAsync("Scripts", required: false)
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+
+        @await RenderSectionAsync("Scripts", required: false)
 </body>
 
 </html>
