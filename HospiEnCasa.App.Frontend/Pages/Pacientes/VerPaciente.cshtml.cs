@@ -9,11 +9,11 @@ namespace HospiEnCasa.Frontend.Pages
     {
         private static IRepositorioPaciente _repositorioPaciente = new RepositorioPaciente(new HospiEnCasa.App.Persistencia.AppContext());
 
+        [BindProperty]
         public Paciente Paciente { get; set; }
 
         public VerPacienteModel()
         { }
-
 
         public ActionResult OnGet(int id)
         {

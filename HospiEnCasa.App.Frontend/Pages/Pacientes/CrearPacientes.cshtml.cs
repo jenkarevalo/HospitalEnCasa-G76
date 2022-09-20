@@ -5,8 +5,6 @@ using HospiEnCasa.App.Persistencia;
 
 namespace HospiEnCasa.Frontend.Pages
 {
-
-
     public class CrearPacientesModel : PageModel
     {
         private static IRepositorioPaciente _repositorioPaciente = new RepositorioPaciente(new HospiEnCasa.App.Persistencia.AppContext());
@@ -15,8 +13,6 @@ namespace HospiEnCasa.Frontend.Pages
 
         public CrearPacientesModel()
         { }
-
-
 
         public ActionResult OnGet()
         {
