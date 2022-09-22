@@ -24,6 +24,7 @@
                 <th scope="col">Codigo</th>
                 <th scope="col">Especialidad</th>
                 <th scope="col"colspan="3" align="center">Opciones</th>
+                <th scope="col">Informacion del pacientes</th>
             </tr>
         </thead>
         <tbody>
@@ -44,6 +45,8 @@
                     <button type="button" class="btn btn-success">Informacion</button></a></td>
                     <td><a asp-page="./EliminarMedico" asp-route-id="@medico.Id">
                     <button type="button" class="btn btn-success">Eliminar</button></a></td>
+                    <td><a asp-page-Handler="Medico" asp-page="../Pacientes/ListaPacientes" asp-route-idMedico="@medico.Id">
+                    <button type="button" class="btn btn-success">Informacion de pacientes</button></a></td>
                 </tr>
             }
         </tbody>
