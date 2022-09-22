@@ -8,11 +8,11 @@ public class Program
    private static IRepositorioPaciente _repositorioPaciente = new RepositorioPaciente(new HospiEnCasa.App.Persistencia.AppContext());
    private static IRepositorioMedico _repositorioMedico = new RepositorioMedico(new HospiEnCasa.App.Persistencia.AppContext());
    private static IRepositorioEnfermera _repositorioEnfermera = new RepositorioEnfermera(new HospiEnCasa.App.Persistencia.AppContext());
-   private static IRepositorioFamiliarDesignado _repositorioFamiliarDesignado = new RepositorioFamiliarDesignado(new HospiEnCasa.App.Persistencia.AppContext());
-   private static IRepositorioSignoVital _repositorioSignoVital = new RepositorioSignoVital(new HospiEnCasa.App.Persistencia.AppContext());
+   //private static IRepositorioFamiliarDesignado _repositorioFamiliarDesignado = new RepositorioFamiliarDesignado(new HospiEnCasa.App.Persistencia.AppContext());
+   //private static IRepositorioSignoVital _repositorioSignoVital = new RepositorioSignoVital(new HospiEnCasa.App.Persistencia.AppContext());
    private static void Main(String[] args)
    {
-      Console.WriteLine("Hello, World!");
+      Console.WriteLine("Has hecho un buen trabajo!");
 
       //AdicionarPaciente();
       //BuscarPaciente();
@@ -23,13 +23,13 @@ public class Program
       //BuscarEnfermera();
       //AdicionarFamiliarDesignado();
       //BuscarFamiliarDesignado();
-      //EscogerMedico();
+      EscogerMedico();
       //EscogerEnfermera();
-      AdicionarSignoVital();
+      //AdicionarSignoVital();
       //BuscarSignoVital();
    }
 
-   public static void EscogerEnfermera()
+   /*public static void EscogerEnfermera()
    {
       Enfermera enfermera = _repositorioEnfermera.GetEnfermera(2);
       Console.WriteLine("Enfermera: " + enfermera.Nombre);
@@ -50,21 +50,22 @@ public class Program
 
       _repositorioEnfermera.UpdateEnfermera(enfermera);
       Console.WriteLine("Accion realizada");
-   }
+   }*/
    public static void EscogerMedico()
    {
-      Medico medico = _repositorioMedico.GetMedico(2);
+      Medico medico = _repositorioMedico.GetMedico(13);
       Console.WriteLine("Medico: " + medico.Nombre);
       medico.ListaPacientes = _repositorioPaciente.GetPacientesXMedico(medico.Id).ToList();
 
       Paciente paciente = new Paciente();
-      paciente.Nombre = "Jose";
-      paciente.Apellido = "Osorio";
-      paciente.Telefono = "3216874862";
-      paciente.Genero = Genero.masculino;
-      paciente.Direccion = "calle 127 # 12-05";
+      paciente.Nombre = "Clara";
+      paciente.Apellido = "barreto";
+      paciente.Telefono = "6452189";
+      paciente.Genero = Genero.femenino;
+      paciente.Direccion = "calle 100 # 25-10";
       paciente.Ciudad = "Bogota";
-      paciente.FechaNacimiento = new DateTime(1987, 08, 12);
+      paciente.FechaNacimiento = new DateTime(1955, 05, 24);
+      paciente.EnfermeraId = 2;
 
       paciente.Medico = medico;
       medico.ListaPacientes.Add(paciente);
@@ -72,24 +73,25 @@ public class Program
       _repositorioMedico.UpdateMedico(medico);
       Console.WriteLine("Accion realizada");
    }
-   static void AdicionarPaciente()
+   /*static void AdicionarPaciente()
    {
       Console.WriteLine("Adicionando un Paciente");
       Paciente paciente = new Paciente();
-      paciente.Nombre = "Ale";
-      paciente.Apellido = "Cabas";
-      paciente.Telefono = "315282567";
-      paciente.Genero = Genero.femenino;
-      paciente.Direccion = "Calle 256No. 13-48";
-      paciente.Ciudad = "Santa Marta";
+      paciente.Nombre = "Rodrigo";
+      paciente.Apellido = "Castiblanco";
+      paciente.Telefono = "3005001597";
+      paciente.Genero = Genero.masculino;
+      paciente.Direccion = "Calle 200a # 45 - 5";
+      paciente.Ciudad = "Cucuta";
       paciente.FechaNacimiento = DateTime.Now;
-      paciente.MedicoId = 1;
-      paciente.EnfermeraId = 1;
+      paciente.MedicoId = 14;
+      paciente.EnfermeraId = 6;
 
       _repositorioPaciente.AddPaciente(paciente);
       Console.WriteLine("Paciente Adicionado Correctamente");
    }
-   static void BuscarPaciente()
+
+   /*static void BuscarPaciente()
    {
       var paciente = _repositorioPaciente.GetPaciente(1);
       Console.WriteLine("Nombre: " + paciente.Nombre);
@@ -191,5 +193,5 @@ public class Program
       var signoVital =_repositorioSignoVital.GetSignoVital(1);
       Console.WriteLine("Signo: " + signoVital.Signo);
       Console.WriteLine("Valor: " + signoVital.Valor);
-   }
+   }*/
 }

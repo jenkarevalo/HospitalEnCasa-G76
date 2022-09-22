@@ -1,7 +1,7 @@
 ﻿@page
 @model HospiEnCasa.Frontend.Pages.CrearPacientesModel
 @{
-     ViewData["Title"] = "Adicionar Paciente";
+    ViewData["Title"] = "Adicionar Paciente";
 }
 
 <h1>Adicionar nuevo Paciente</h1>
@@ -9,7 +9,7 @@
 <form method="POST" class="row g-3">
     <div class="col-md-4">
         <label asp-for="Paciente.Nombre" class="form-label">Nombre</label>
-        <input type= "Text" asp-for="Paciente.Nombre" class="form-control" id="txtNombre">
+        <input type="Text" asp-for="Paciente.Nombre" class="form-control" id="txtNombre">
     </div>
     <div class="col-md-4">
         <label asp-for="Paciente.Apellido" class="form-label">Apellido</label>
@@ -33,12 +33,42 @@
     </div>
     <div class="col-md-4">
         <label asp-for="Paciente.Genero" class="form-label">Genero</label>
-        <select id="inputCodigo" asp-for= "Paciente.Genero" class="form-select">
+        <select id="inputCodigo" asp-for="Paciente.Genero" class="form-select">
             <option value="0">Masculino</option>
-            <option value ="1">Femenino</option>
+            <option value="1">Femenino</option>
         </select>
     </div>
+
+    <div class="col-md-4">
+        <span class="input-group-text" id="Medico">Medico</span>
+        <select asp-for="Paciente.MedicoId" class="form-select">
+            <option selected>Selecciona Medico</option>
+
+            @foreach (var medico in Model.Medicos)
+            {
+                <option value="@medico.Id">@medico.Nombre @medico.Apellido</option>
+            }
+
+        </select>
+        <span asp-validation-for="Paciente.MedicoId" class="form-danger"></span>
+    </div>
+
+    <div class="col-md-4">
+        <span class="input-group-text" id="Enfermera">Enfermera</span>
+        <select asp-for="Paciente.EnfermeraId" class="form-select">
+            <option selected>Selecciona Enfermera</option>
+
+            @foreach (var enfermera in Model.Enfermeras)
+            {
+                <option value="@enfermera.Id">@enfermera.Nombre @enfermera.Apellido</option>
+            }
+
+        </select>
+        <span asp-validation-for="Paciente.EnfermeraId" class="form-danger"></span>
+    </div>
+
     <div class="col-12">
         <button type="submit" class="btn btn-success" id="alerta">Guardar</button>
     </div>
+
 </form>

@@ -31,26 +31,54 @@
             </tr>
         </thead>
         <tbody>
-            @foreach (var paciente in Model.Pacientes)
+            @if (Model.Medico == null)
             {
-                <tr>
-                    
-                    <td>@paciente.Id</td>
-                    <td>@paciente.Nombre</td>
-                    <td>@paciente.Apellido</td>
-                    <td>@paciente.Telefono</td>
-                    <td>@paciente.Genero</td>
-                    <td>@paciente.Ciudad</td>
-                    <td>@paciente.Direccion</td>
-                    <td>@paciente.FechaNacimiento</td>
-                    <td><a asp-page="./EditarPaciente" asp-route-id="@paciente.Id">
-                    <button type="button" class="btn btn-success">Editar</button></a></td>
-                    <td><a asp-page="./VerPaciente" asp-route-id="@paciente.Id">
-                    <button type="button" class="btn btn-success">informacion</button></a></td>
-                    <td><a asp-page="./EliminarPaciente" asp-route-id="@paciente.Id">
-                    <button type="button" class="btn btn-success">Eliminar</button></a></td>
-                </tr>
+                @foreach (var paciente in Model.Pacientes)
+                {
+                    <tr>
+
+                        <td>@paciente.Id</td>
+                        <td>@paciente.Nombre</td>
+                        <td>@paciente.Apellido</td>
+                        <td>@paciente.Telefono</td>
+                        <td>@paciente.Genero</td>
+                        <td>@paciente.Ciudad</td>
+                        <td>@paciente.Direccion</td>
+                        <td>@paciente.FechaNacimiento</td>
+                        <td><a asp-page="./EditarPaciente" asp-route-id="@paciente.Id">
+                                <button type="button" class="btn btn-success">Editar</button></a></td>
+                        <td><a asp-page="./VerPaciente" asp-route-id="@paciente.Id">
+                                <button type="button" class="btn btn-success">informacion</button></a></td>
+                        <td><a asp-page="./EliminarPaciente" asp-route-id="@paciente.Id">
+                                <button type="button" class="btn btn-success">Eliminar</button></a></td>
+                    </tr>
+                }
+
             }
+            else
+            {
+                @foreach (var paciente in Model.Medico.ListaPacientes)
+                {
+                    <tr>
+
+                        <td>@paciente.Id</td>
+                        <td>@paciente.Nombre</td>
+                        <td>@paciente.Apellido</td>
+                        <td>@paciente.Telefono</td>
+                        <td>@paciente.Genero</td>
+                        <td>@paciente.Ciudad</td>
+                        <td>@paciente.Direccion</td>
+                        <td>@paciente.FechaNacimiento</td>
+                        <td><a asp-page="./EditarPaciente" asp-route-id="@paciente.Id">
+                                <button type="button" class="btn btn-success">Editar</button></a></td>
+                        <td><a asp-page="./VerPaciente" asp-route-id="@paciente.Id">
+                                <button type="button" class="btn btn-success">informacion</button></a></td>
+                        <td><a asp-page="./EliminarPaciente" asp-route-id="@paciente.Id">
+                                <button type="button" class="btn btn-success">Eliminar</button></a></td>
+                    </tr>
+                }
+            }
+
         </tbody>
-    </table>    
+    </table>
 </form>

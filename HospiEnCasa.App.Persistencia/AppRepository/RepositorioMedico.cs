@@ -1,5 +1,6 @@
 using System;
 using HospiEnCasa.App.Dominio;
+using Microsoft.EntityFrameworkCore;
 
 namespace HospiEnCasa.App.Persistencia
 {
@@ -31,6 +32,11 @@ namespace HospiEnCasa.App.Persistencia
         public IEnumerable<Medico> GetAllMedicos()
         {
             return _appContext.Medicos;
+        }
+
+        public Medico GetMedicoWithPacientes (int idMedico)
+        {
+            return _appContext.Medicos.Include(p => p.ListaPacientes).FirstOrDefault(p => p.Id == idMedico);
         }
         public Medico UpdateMedico (Medico medico)
         {
