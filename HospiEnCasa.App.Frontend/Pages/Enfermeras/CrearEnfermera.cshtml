@@ -7,7 +7,6 @@
 <h1>Adicionar nueva Enfermera</h1>
 <h2>@ViewData["Error"]</h2>
 <form method="POST" class="row g-3">
-    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
     <div class="col-md-6">
         <label asp-for="Enfermera.Nombre" class="form-label">Nombre</label>
         <input type="text" asp-for="Enfermera.Nombre" class="form-control" id="txtNombre">
@@ -16,7 +15,6 @@
     <div class="col-md-6">
         <label asp-for="Enfermera.Apellido" class="form-label">Apellido</label>
         <input type="text" asp-for="Enfermera.Apellido" class="form-control" id="txtApellido">
-
         <span asp-validation-for="Enfermera.Apellido" class="text-danger"></span>
     </div>
     <div class="col-6">
@@ -42,7 +40,7 @@
         </select>
     </div>
     <div class="col-12">
-        <button type="submit" class="btn btn-success">Guardar</button>
+        <button type="submit" class="btn btn-success" id="alerta">Guardar</button>
     </div>
 </form>
 
