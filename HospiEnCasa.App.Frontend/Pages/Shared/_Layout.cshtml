@@ -36,6 +36,7 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area=""
                                 asp-page="./Enfermeras/ListadoEnfermeras">Enfermeras</a>
+                            <script src="~/js/site.js" asp-append-version="true"></script>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area=""
@@ -52,24 +53,46 @@
     </header>
     <div class="container2">
         <div class="bg-image"
-            style="
-    background-image: url('https://um2012.s3.us-west-2.amazonaws.com/u5699226/visuals/6276f9cc-14c7-40e7-a00f-f397f7f3864b.jpg'); min-height: 70vh;">
+            style="background-image: url('https://um2012.s3.us-west-2.amazonaws.com/u5699226/visuals/6276f9cc-14c7-40e7-a00f-f397f7f3864b.jpg'); min-height: 70vh;">
             <main role="main" class="pb-3">
                 @RenderBody()
             </main>
         </div>
+    </div>
 
-        <footer class="border-top footer text-muted">
-            <div class="container">
-                &copy; 2022 - HospiEnCasa.App.Frontend - <a asp-area="" asp-page="/Privacy">Privacy</a>
-            </div>
-        </footer>
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2022 - HospiEnCasa.App.Frontend - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        </div>
+    </footer>
 
-        <script src="~/lib/jquery/dist/jquery.min.js"></script>
-        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="~/js/site.js" asp-append-version="true"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
 
-        @await RenderSectionAsync("Scripts", required: false)
+    @await RenderSectionAsync("Scripts", required: false)
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="~/js/sweetalert.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+    <script>
+
+        const alerta = document.querySelector('#alerta');
+
+        alerta.addEventListener('click', () => {
+            //console.log('diste click');
+            toastr.success('Tus datos se han guardado con exito', 'Bien!', {
+            "progressBar": true,
+            "positionClass": "toast-top-center"
+            });
+        })  
+    </script>
+
 </body>
 
 </html>
