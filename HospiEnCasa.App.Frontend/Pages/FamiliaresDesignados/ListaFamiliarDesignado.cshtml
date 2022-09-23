@@ -18,7 +18,7 @@
     <thead>
         <tr>
             
-            <th scope="col">Id</th>
+            <th scope="col">#</th>
             <th scope="col">Nombre</th>
             <th scope="col">Apellido</th>
             <th scope="col">Telefono</th>
@@ -26,16 +26,18 @@
             <th scope="col">Parentesco</th>
             <th scope="col">Correo</th>
             <th scope ="col">Paciente Id</th>
-            <th scope="col" colspan="3">Opciones</th>
+            <th scope="col" colspan="3"><center>Opciones</center></th>
 
         </tr>
     </thead>
     <tbody>
-        @foreach (var familiar in Model.FamiliarDesignado)
-        {
-            <tr>
-                
-                    <td>@familiar.Id</td>
+        <hr>
+            @{
+                int numFila = 1;
+                foreach (var familiar in Model.FamiliarDesignado)
+                {
+                    <tr>
+                    <th scope="row">@numFila</th>
                     <td>@familiar.Nombre</td>
                     <td>@familiar.Apellido</td>
                     <td>@familiar.Telefono</td>
@@ -48,7 +50,10 @@
                     <td><a asp-page="./VerFamiliarDesignado" asp-route-id="@familiar.Id">
                     <button type="button" class="btn btn-success">Informacion</button></a></td>
                     <td><a asp-page="./EliminarFamiliarDesignado" asp-route-id="@familiar.Id">
-                    <button type="button" class="btn btn-success">Eliminar</button></a></td>
-            </tr>
-        }
+                    <button type="button" class="btn btn-danger">Eliminar</button></a></td>
+                    </tr>
+                numFila++;
+                }
+            }    
+        </hr>
 </form>

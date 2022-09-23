@@ -14,29 +14,32 @@
     <table class="table table-success table-striped">
         <thead>
             <tr>                
-                <th scope="col">id</th>
+                <th scope="col">#</th>
                 <th scope="col">Signo</th>
                 <th scope="col">Valor</th>
                 <th scope="col">PacienteId</th>
-                <th scope="col" colspan="3">Opciones</th>
+                <th scope="col" colspan="3"><center>Opciones</center></th>
 
             </tr>
         </thead>
         <tbody>
-    @foreach (var signoVital in Model.SignoVital)
-    {
-            <tr>
-                <td scope="row">@signoVital.Id</td>
-                <td>@signoVital.Signo</td>
-                <td>@signoVital.Valor</td>
-                <td>@signoVital.PacienteId</td>
-                <td><a asp-page="">Editar</a></td>
-                <td><a asp-page="./VerSignoVital">Detalles</a></td>
-                <td><a asp-page="">Eliminar</a></td>
-                
-            </tr>             
-    }
-    
+        @{
+            int numFila = 1;
+            foreach (var signoVital in Model.SignoVital)
+            {
+                <tr>
+                    <th scope="row">@numFila</th>
+                    <td>@signoVital.Signo</td>
+                    <td>@signoVital.Valor</td>
+                    <td>@signoVital.PacienteId</td>
+                    <td><a asp-page="">Editar</a></td>
+                    <td><a asp-page="./VerSignoVital">Detalles</a></td>
+                    <td><a asp-page="">Eliminar</a></td>
+                    
+                </tr>
+                numFila++;             
+            }
+        }
         </tbody>
     </table>
 </form> 

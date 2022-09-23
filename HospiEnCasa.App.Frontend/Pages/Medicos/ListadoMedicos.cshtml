@@ -16,38 +16,42 @@
     <table class="table table-success table-striped">
         <thead>
             <tr>
-                <th scope="col">Id</th>
+                <th scope="col">#</th>
                 <th scope="col">Nombre</th>
                 <th scope="col">Apellido</th>
                 <th scope="col">Telefono</th>
                 <th scope="col">Genero</th>
                 <th scope="col">Codigo</th>
                 <th scope="col">Especialidad</th>
-                <th scope="col"colspan="3" align="center">Opciones</th>
-                <th scope="col">Informacion del pacientes</th>
+                <th scope="col"colspan="3"><center>Opciones</center></th>
+                <th scope="col">Informacion Pacientes</th>
             </tr>
         </thead>
         <tbody>
         <hr>
-            @foreach (var medico in Model.Medicos)
-            {
-                <tr>
-                    <th scope="row">@medico.Id</th>
-                    <td>@medico.Nombre</td>
-                    <td>@medico.Apellido</td>
-                    <td>@medico.Telefono</td>
-                    <td>@medico.Genero</td>
-                    <td>@medico.Codigo</td>
-                    <td>@medico.Especialidad</td>
-                    <td><a asp-page="./EditarMedico" asp-route-id="@medico.Id">
-                    <button type="button" class="btn btn-success">Editar</button></a></td>
-                    <td><a asp-page="./VerMedico" asp-route-id="@medico.Id">
-                    <button type="button" class="btn btn-success">Informacion</button></a></td>
-                    <td><a asp-page="./EliminarMedico" asp-route-id="@medico.Id">
-                    <button type="button" class="btn btn-success">Eliminar</button></a></td>
-                    <td><a asp-page-Handler="Medico" asp-page="../Pacientes/ListaPacientes" asp-route-idMedico="@medico.Id">
-                    <button type="button" class="btn btn-success">Informacion de pacientes</button></a></td>
-                </tr>
+            @{
+                int numFila = 1;
+                foreach (var medico in Model.Medicos)
+                {
+                    <tr>
+                        <th scope="row">@numFila</th>
+                        <td>@medico.Nombre</td>
+                        <td>@medico.Apellido</td>
+                        <td>@medico.Telefono</td>
+                        <td>@medico.Genero</td>
+                        <td>@medico.Codigo</td>
+                        <td>@medico.Especialidad</td>
+                        <td><a asp-page="./EditarMedico" asp-route-id="@medico.Id">
+                        <button type="button" class="btn btn-success">Editar</button></a></td>
+                        <td><a asp-page="./VerMedico" asp-route-id="@medico.Id">
+                        <button type="button" class="btn btn-success">Informacion</button></a></td>
+                        <td><a asp-page="./EliminarMedico" asp-route-id="@medico.Id">
+                        <button type="button" class="btn btn-danger">Eliminar</button></a></td>
+                        <td><a asp-page-Handler="Medico" asp-page="../Pacientes/ListaPacientes" asp-route-idMedico="@medico.Id">
+                        <button type="button" class="btn btn-success">Informacion de pacientes</button></a></td>
+                    </tr>
+                    numFila++;
+                }
             }
         </tbody>
     </table>
