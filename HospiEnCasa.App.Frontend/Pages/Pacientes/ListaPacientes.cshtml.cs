@@ -25,6 +25,7 @@ namespace HospiEnCasa.Frontend.Pages
         public void OnGetMedico(int? idMedico)
         {
             if (idMedico.HasValue){
+                this.Medico = _repositorioMedico.GetMedico(idMedico.Value);
                 this.Medico = _repositorioMedico.GetMedicoWithPacientes(idMedico.Value);
             }else {
                 Pacientes = _repositorioPaciente.GetAllPacientes();
