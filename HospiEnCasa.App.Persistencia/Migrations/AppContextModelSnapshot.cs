@@ -225,11 +225,19 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                     b.Property<int>("PacienteId")
                         .HasColumnType("int");
 
-                    b.Property<string>("Signo")
+                    b.Property<string>("PresionArterial")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Valor")
+                    b.Property<string>("Pulso")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Respiracion")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Temperatura")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -263,6 +271,27 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                     b.HasIndex("HistoriaId");
 
                     b.ToTable("SugerenciasCuidados");
+                });
+
+            modelBuilder.Entity("HospiEnCasa.App.Dominio.Usuario", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("User")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Usuarios");
                 });
 
             modelBuilder.Entity("HospiEnCasa.App.Dominio.FamiliarDesignado", b =>

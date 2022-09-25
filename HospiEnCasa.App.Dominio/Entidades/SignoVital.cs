@@ -8,9 +8,13 @@ namespace HospiEnCasa.App.Dominio
        public int Id {get; set;}
        public DateTime FechaHora {get; set;}
        [Required(ErrorMessage=" El campo es obligatorio")]
-       public string Signo {get; set;}
+       public string PresionArterial {get; set;}
        [Required(ErrorMessage=" El campo es obligatorio")]
-       public string Valor {get; set;}
+        public string Respiracion {get; set;}
+       [Required(ErrorMessage=" El campo es obligatorio")]
+        public string Pulso {get; set;}
+       [Required(ErrorMessage=" El campo es obligatorio")]
+        public string Temperatura {get; set;}
        [Required(ErrorMessage=" El campo es obligatorio")]
        public int PacienteId {get; set;} 
        public Paciente Paciente{get; set;}

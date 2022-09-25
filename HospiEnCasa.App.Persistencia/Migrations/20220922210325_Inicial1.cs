@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace HospiEnCasa.App.Persistencia.Migrations
 {
-    public partial class Inicial : Migration
+    public partial class Inicial1 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -43,6 +43,20 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Medicos", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Usuarios",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    User = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Password = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Usuarios", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -131,8 +145,10 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     FechaHora = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Signo = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Valor = table.Column<float>(type: "real", nullable: false),
+                    PresionArterial = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Respiracion = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Pulso = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Temperatura = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     PacienteId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -210,6 +226,9 @@ namespace HospiEnCasa.App.Persistencia.Migrations
 
             migrationBuilder.DropTable(
                 name: "SugerenciasCuidados");
+
+            migrationBuilder.DropTable(
+                name: "Usuarios");
 
             migrationBuilder.DropTable(
                 name: "Historias");

@@ -178,18 +178,36 @@ public class Program
 
    static void AdicionarSignoVital()
    {
-      Console.WriteLine ("Adicionando un Signo vital");
+      //Console.WriteLine ("Adicionando un Signo vital");
+     
+      Paciente paciente = _repositorioPaciente.GetPaciente(37);
+      Console.WriteLine ("Paciente: " + paciente.Nombre);
+      paciente.ListaSignoVital = _repositorioSignoVital.GetSignoVitalXPaciente(37).ToList();
+
+      //Crear registro de Signos vitales para guardar en Bds
       SignoVital signoVital = new SignoVital();
-      signoVital.PacienteId = 4;
-      signoVital.Signo ="Temperatura";
-      signoVital.Valor = "37";
-      _repositorioSignoVital.AddSignoVital(signoVital);
-      Console.WriteLine("Signo vital Correctamente");
+      signoVital.PresionArterial ="100/60";
+      signoVital.Respiracion = "12-18";
+      signoVital.Pulso ="100-60";
+      signoVital.Temperatura ="39.2";
+      
+      //generar una relacion 1 => N
+      signoVital.Paciente = paciente;
+      paciente.ListaSignoVital.Add(signoVital);
+
+      //Guardar la nuevo signo vital en la Bds
+      _repositorioPaciente.UpdatePaciente(paciente);
+      Console.WriteLine ("Signo vital Correctamente");
+
+      //_repositorioSignoVital.AddSignoVital(signoVital);
+      //Console.WriteLine("Signo vital Correctamente");
    }
    static void BuscarSignoVital()
    {
       var signoVital =_repositorioSignoVital.GetSignoVital(1);
-      Console.WriteLine("Signo: " + signoVital.Signo);
-      Console.WriteLine("Valor: " + signoVital.Valor);
+      Console.WriteLine("Signo: " + signoVital.PresionArterial);
+      Console.WriteLine("Signo: " + signoVital.Respiracion);
+      Console.WriteLine("Signo: " + signoVital.Pulso);
+      Console.WriteLine("Signo: " + signoVital.Temperatura);      
    }
 }
