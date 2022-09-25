@@ -21,7 +21,6 @@ namespace HospiEnCasa.Frontend.Pages
              this.Pacientes = _repositorioPaciente.GetAllPacientes();
             return Page();
         }
-
         public ActionResult OnPost()
         {
             try
@@ -37,4 +36,3 @@ namespace HospiEnCasa.Frontend.Pages
         }
     }
 }
-
