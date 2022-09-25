@@ -39,6 +39,34 @@
             <option value ="1">Femenino</option>
         </select>
     </div>
+    <div class="col-md-4">
+        <span class="input-group-text" id="Enfermera">Enfermera</span>
+        <select asp-for="Paciente.EnfermeraId" class="form-select">
+            <option selected>Selecciona Enfermera</option>
+
+            @foreach (var enfermera in Model.Enfermeras)
+            {
+                <option value="@enfermera.Id">@enfermera.Nombre @enfermera.Apellido</option>
+            }
+
+        </select>
+        <span asp-validation-for="Paciente.EnfermeraId" class="form-danger"></span>
+    </div>
+
+    <div class="col-md-4">
+        <span class="input-group-text" id="Medico">Medico</span>
+        <select asp-for="Paciente.MedicoId" class="form-select">
+            <option selected>Selecciona Medico</option>
+
+            @foreach (var medico in Model.Medicos)
+            {
+                <option value="@medico.Id">@medico.Nombre @medico.Apellido</option>
+            }
+
+        </select>
+        <span asp-validation-for="Paciente.MedicoId" class="form-danger"></span>
+    </div>
+
     <div class="col-12">
         <button type="submit" class="btn btn-success" id="alerta">Guardar</button>
     </div>

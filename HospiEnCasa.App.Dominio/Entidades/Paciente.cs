@@ -13,6 +13,7 @@ namespace HospiEnCasa.App.Dominio
     public string Ciudad { get; set;}
     [Required(ErrorMessage="El campo Fecha de Nacimiento es obligatorio")]
     public DateTime FechaNacimiento {get; set;}
+    public int? HistoriaId {get; set;}
     public Historia Historia {get; set;}
     public int MedicoId {get; set;}
     public Medico Medico {get; set;} 

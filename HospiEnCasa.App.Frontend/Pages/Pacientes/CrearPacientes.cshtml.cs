@@ -10,8 +10,9 @@ namespace HospiEnCasa.Frontend.Pages
         private static IRepositorioMedico _repositorioMedico = new RepositorioMedico(new HospiEnCasa.App.Persistencia.AppContext());
 
         private static IRepositorioEnfermera _repositorioEnfermera = new RepositorioEnfermera(new HospiEnCasa.App.Persistencia.AppContext());
-
+        [BindProperty]
         public IEnumerable<Enfermera> Enfermeras { get; set; }
+          [BindProperty]
         public IEnumerable<Medico> Medicos { get; set; }
         private static IRepositorioPaciente _repositorioPaciente = new RepositorioPaciente(new HospiEnCasa.App.Persistencia.AppContext());
         [BindProperty]
@@ -19,9 +20,6 @@ namespace HospiEnCasa.Frontend.Pages
 
         public CrearPacientesModel()
         { }
-
-
-
         public ActionResult OnGet()
         {
             this.Medicos = _repositorioMedico.GetAllMedicos();
@@ -33,9 +31,8 @@ namespace HospiEnCasa.Frontend.Pages
         {
             try
             {
-                Paciente pacienteAdicionado = _repositorioPaciente.AddPaciente(Paciente);
+               Paciente pacienteAdicionado = _repositorioPaciente.AddPaciente(Paciente);
                 return Redirect("./ListaPacientes");
-                //return new Page();
             }
             catch (System.Exception e)
             {
