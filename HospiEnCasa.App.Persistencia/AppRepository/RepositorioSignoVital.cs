@@ -1,5 +1,6 @@
 using System;
 using HospiEnCasa.App.Dominio;
+using Microsoft.EntityFrameworkCore;
 
 namespace HospiEnCasa.App.Persistencia
 {
@@ -33,10 +34,27 @@ namespace HospiEnCasa.App.Persistencia
        {
           return _appContext.SignosVitales.FirstOrDefault(s => s.Id == idSignoVital);
        }
+
+       public SignoVital GetSignoVitalAndPaciente (int idSignoVital)
+       {
+          return _appContext.SignosVitales.Include(b => b.Paciente).FirstOrDefault(s => s.Id == idSignoVital);
+       }
     public IEnumerable<SignoVital> GetAllSignosVitales()
        {
           return _appContext.SignosVitales;
        }
+
+       public IEnumerable<SignoVital> GetAllSignosVitalesAndPacientes()
+       {
+          return _appContext.SignosVitales.Include(b => b.Paciente);
+       }
+
+    public IEnumerable<SignoVital> GetSignoVitalXPaciente(int idPaciente)
+        {
+            Console.WriteLine("Id Paciente: " + idPaciente);
+            return
+                this._appContext.SignosVitales.Where(sv => sv.PacienteId == idPaciente);
+        }    
 
     public SignoVital UpdateSignoVital (SignoVital signoVital)
        {
@@ -44,8 +62,10 @@ namespace HospiEnCasa.App.Persistencia
            if (signoVitalEncontrado != null)
            {
             
-            signoVitalEncontrado.Signo = signoVital.Signo;
-            signoVitalEncontrado.Valor = signoVital.Valor;
+            signoVitalEncontrado.PresionArterial = signoVital.PresionArterial;
+            signoVitalEncontrado.Respiracion = signoVital.Respiracion;
+            signoVitalEncontrado.Pulso = signoVital.Pulso;
+            signoVitalEncontrado.Temperatura = signoVital.Temperatura;
             signoVitalEncontrado.Paciente = signoVital.Paciente;
 
             _appContext.SaveChanges();

@@ -1,4 +1,31 @@
 ﻿@page
 @model HospiEnCasa.Frontend.Pages.VerSignoVitalModel
 @{
+    ViewData["Title"]= "Ver SignoVital";
 }
+
+<h1>Información Signos Vitales</h1>
+
+<a asp-page="./ListadoSignosVitales">Listado de Signos Vitales</a>
+<br> <br>
+
+<form method="POST">
+    <div class="card border-success mb-3" style="max-width: 18rem;">
+        <div class="card-header">Informacion de los Signos Vitales</div>
+        <div class="card-body text-success">
+            <h6 class="card-title">
+                <label asp-for="SignoVital.PresionArterial" class= "control-label"></label>
+                <input type = "text" asp-for= "SignoVital.PresionArterial" class = "form-control" readonly/>
+                <label asp-for="SignoVital.Respiracion" class= "control-label"></label>
+                <input type = "text" asp-for= "SignoVital.Respiracion" class = "form-control" readonly/>
+                <label asp-for="SignoVital.Pulso" class= "control-label"></label>
+                <input type = "text" asp-for= "SignoVital.Pulso" class = "form-control" readonly/>
+                <label asp-for="SignoVital.Temperatura" class= "control-label"></label>
+                <input type = "text" asp-for= "SignoVital.Temperatura" class = "form-control" readonly/>
+            </h6>
+            
+            <p class="card-text">Nombre: @Model.SignoVital.Paciente.Nombre</p>
+            <p class="card-text">Apellido: @Model.SignoVital.Paciente.Apellido</p>
+            
+        </div>
+</form>
