@@ -17,36 +17,40 @@
     <table class="table table-success table-striped">
         <thead>
             <tr>
-                <th scope="col">Id</th>
+                <th scope="col">#</th>
                 <th scope="col">Nombre</th>
                 <th scope="col">Apellido</th>
                 <th scope="col">Telefono</th>
                 <th scope="col">Genero</th>
                 <th scope="col">TarjetaProfesional</th>
                 <th scope="col">HorasLaborales</th>
-                <th scope="col"colspan="3">Opciones</th>
+                <th scope="col"colspan="3"><center>Opciones</center></th>
             </tr>
         </thead>
         <tbody>
         <br>    
-            @foreach (var enfermera in Model.Enfermeras)
-            {
-                <tr>
-                    <th scope="row">@enfermera.Id</th>
-                    <td>@enfermera.Nombre</td>
-                    <td>@enfermera.Apellido</td>
-                    <td>@enfermera.Telefono</td>
-                    <td>@enfermera.Genero</td>
-                    <td>@enfermera.TarjetaProfesional</td>
-                    <td>@enfermera.HorasLaborales</td>
-                    <td><a asp-page="./EditarEnfermera" asp-route-id="@enfermera.Id">
-                    <button type="button" class="btn btn-success">Editar</button></a></td>
-                    <td><a asp-page="./VerEnfermera" asp-route-id="@enfermera.Id">
-                    <button type="button" class="btn btn-success">Informacion</button></a></td>
-                    <td><a asp-page="./EliminarEnfermera" asp-route-id="@enfermera.Id">
-                    <button type="button" class="btn btn-success">Eliminar</button></a></td>
-                </tr>
-            }
+            @{
+                int numFila = 1;
+                foreach (var enfermera in Model.Enfermeras)
+                {
+                    <tr>
+                        <th scope="row">@numFila</th>
+                        <td>@enfermera.Nombre</td>
+                        <td>@enfermera.Apellido</td>
+                        <td>@enfermera.Telefono</td>
+                        <td>@enfermera.Genero</td>
+                        <td>@enfermera.TarjetaProfesional</td>
+                        <td>@enfermera.HorasLaborales</td>
+                        <td><a asp-page="./EditarEnfermera" asp-route-id="@enfermera.Id">
+                        <button type="button" class="btn btn-success">Editar</button></a></td>
+                        <td><a asp-page="./VerEnfermera" asp-route-id="@enfermera.Id">
+                        <button type="button" class="btn btn-success">Informacion</button></a></td>
+                        <td><a asp-page="./EliminarEnfermera" asp-route-id="@enfermera.Id">
+                        <button type="button" class="btn btn-danger">Eliminar</button></a></td>
+                    </tr>
+                    numFila++;
+                }
+            }    
         </tbody>
     </table>
 </form>

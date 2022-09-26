@@ -18,7 +18,7 @@
         <thead>
             <tr>
 
-                <th scope="col">Id</th>
+                <th scope="col">#</th>
                 <th scope="col">Nombre</th>
                 <th scope="col">Apellido</th>
                 <th scope="col">Telefono</th>
@@ -26,59 +26,72 @@
                 <th scope="col">Ciudad</th>
                 <th scope="col">Direccion</th>
                 <th scope="col">Fecha de Nacimiento</th>
-                <th scope="col" colspan="3">Opciones</th>
+                <th scope="col" colspan="3"><center>Opciones</center></th>
 
             </tr>
         </thead>
         <tbody>
-            @if (Model.Medico == null)
-            {
-                @foreach (var paciente in Model.Pacientes)
+            @{
+                int numFila = 1;
+                if (Model.Medico == null)
                 {
-                    <tr>
+                    @foreach (var paciente in Model.Pacientes)
+                    {
+                        <tr>
 
-                        <td>@paciente.Id</td>
-                        <td>@paciente.Nombre</td>
-                        <td>@paciente.Apellido</td>
-                        <td>@paciente.Telefono</td>
-                        <td>@paciente.Genero</td>
-                        <td>@paciente.Ciudad</td>
-                        <td>@paciente.Direccion</td>
-                        <td>@paciente.FechaNacimiento</td>
-                        <td><a asp-page="./EditarPaciente" asp-route-id="@paciente.Id">
-                                <button type="button" class="btn btn-success">Editar</button></a></td>
-                        <td><a asp-page="./VerPaciente" asp-route-id="@paciente.Id">
-                                <button type="button" class="btn btn-success">informacion</button></a></td>
-                        <td><a asp-page="./EliminarPaciente" asp-route-id="@paciente.Id">
-                                <button type="button" class="btn btn-success">Eliminar</button></a></td>
-                    </tr>
+                            <th scope="row">@numFila</th>
+                            <td>@paciente.Nombre</td>
+                            <td>@paciente.Apellido</td>
+                            <td>@paciente.Telefono</td>
+                            <td>@paciente.Genero</td>
+                            <td>@paciente.Ciudad</td>
+                            <td>@paciente.Direccion</td>
+                            <td>@paciente.FechaNacimiento</td>
+                            <td><a asp-page="./EditarPaciente" asp-route-id="@paciente.Id">
+                                    <button type="button" class="btn btn-success">Editar</button></a></td>
+                            <td><a asp-page="./VerPaciente" asp-route-id="@paciente.Id">
+                                    <button type="button" class="btn btn-success">informacion</button></a></td>
+                            <td><a asp-page="./EliminarPaciente" asp-route-id="@paciente.Id">
+                                    <button type="button" class="btn btn-danger">Eliminar</button></a></td>
+                        </tr>
+                        numFila++;
+                    }                    
                 }
-
-            }
-            else
-            {
-                @foreach (var paciente in Model.Medico.ListaPacientes)
+                else
                 {
-                    <tr>
+                    @foreach (var paciente in Model.Medico.ListaPacientes)
+                    {
+                        <tr>
 
-                        <td>@paciente.Id</td>
-                        <td>@paciente.Nombre</td>
-                        <td>@paciente.Apellido</td>
-                        <td>@paciente.Telefono</td>
-                        <td>@paciente.Genero</td>
-                        <td>@paciente.Ciudad</td>
-                        <td>@paciente.Direccion</td>
-                        <td>@paciente.FechaNacimiento</td>
-                        <td><a asp-page="./EditarPaciente" asp-route-id="@paciente.Id">
-                                <button type="button" class="btn btn-success">Editar</button></a></td>
-                        <td><a asp-page="./VerPaciente" asp-route-id="@paciente.Id">
-                                <button type="button" class="btn btn-success">informacion</button></a></td>
-                        <td><a asp-page="./EliminarPaciente" asp-route-id="@paciente.Id">
-                                <button type="button" class="btn btn-success">Eliminar</button></a></td>
-                    </tr>
+                            <th scope="row">@numFila</th>
+                            <td>@paciente.Nombre</td>
+                            <td>@paciente.Apellido</td>
+                            <td>@paciente.Telefono</td>
+                            <td>@paciente.Genero</td>
+                            <td>@paciente.Ciudad</td>
+                            <td>@paciente.Direccion</td>
+                            <td>@paciente.FechaNacimiento</td>
+                            <td><a asp-page="./EditarPaciente" asp-route-id="@paciente.Id">
+                                    <button type="button" class="btn btn-success">Editar</button></a></td>
+                            <td><a asp-page="./VerPaciente" asp-route-id="@paciente.Id">
+                                    <button type="button" class="btn btn-success">informacion</button></a></td>
+                            <td><a asp-page="./EliminarPaciente" asp-route-id="@paciente.Id">
+                                    <button type="button" class="btn btn-danger">Eliminar</button></a></td>
+                        </tr>
+                        numFila++;
+                    }
+                    <h3>Informacion del Medico</h3>
+                    <div><img src="~/images/Medicos.jpg" width="350" height="250" style="float: left;"/></div>
+                    <br>
+                    <p><span style="color:red">Nombre:</span> <span style="color:black"> @Model.Medico.Nombre</span></p>
+                    <p><span style="color:red">Apellido:</span> <span style="color:black"> @Model.Medico.Apellido</span></p>
+                    <p><span style="color:red">Telefono:</span> <span style="color:black"> @Model.Medico.Telefono</span></p>
+                    <p><span style="color:red">Especialidad:</span> <span style="color:black"> @Model.Medico.Especialidad</span></p>
+                    <p><span style="color:red">Codigo:</span> <span style="color:black"> @Model.Medico.Codigo</span></p>
+                    <br>
+                    <hr>
                 }
             }
-
         </tbody>
-    </table>
+    </table> 
 </form>

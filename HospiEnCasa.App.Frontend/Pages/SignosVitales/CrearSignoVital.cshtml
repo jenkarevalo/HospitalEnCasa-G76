@@ -4,32 +4,43 @@
     ViewData["Title"]="Crear Signo Vital";
 }
 
-<h1>Crear Paciente</h1>
+<h1>Crear Signo Vital</h1>
 <h3>@ViewData["Error"]</h3>
 <form method="POST" class="row g-3">
   <div asp-validation-summary="ModelOnly" class="text-danger"></div>
   <div class="col-md-6">
-        <label asp-for="SignoVital.Signo" class="form-label">Signo</label>
-        <select id="txtSigno" asp-for="SignoVital.Signo" class="form-select">
-            <option selected>Seleccione su Opcion</option>
-            <option value="Presión arterial">Presión arterial</option>
-            <option value="Frecuencia cardiaca">Frecuencia cardiaca</option>
-            <option value="Frecuencia respiratoria">Frecuencia respiratoria</option>
-            <option value="Temperatura">Temperatura</option>
-        </select>
-        <span asp-validation-for="SignoVital.Signo"class="text-danger"></span>
-    </div>
+    <label asp-for="SignoVital.PresionArterial" class="form-label">PresionArterial</label>
+    <input type="text" asp-for="SignoVital.PresionArterial" class="form-control" id="txtPresionArterial">
+    <span asp-validation-for="SignoVital.PresionArterial"class="text-danger"></span>
+  </div>
   <div class="col-md-6">
-    <label asp-for="SignoVital.Valor" class="form-label">Valor</label>
-    <input type="text" asp-for="SignoVital.Valor" class="form-control" id="txtValor">
-    <span asp-validation-for="SignoVital.Valor"class="text-danger"></span>
+    <label asp-for="SignoVital.Respiracion" class="form-label">Respiracion</label>
+    <input type="text" asp-for="SignoVital.Respiracion" class="form-control" id="txtRespiracion">
+    <span asp-validation-for="SignoVital.Respiracion"class="text-danger"></span>
+  </div><div class="col-md-6">
+    <label asp-for="SignoVital.Pulso" class="form-label">Pulso</label>
+    <input type="text" asp-for="SignoVital.Pulso" class="form-control" id="txtPulso">
+    <span asp-validation-for="SignoVital.Pulso"class="text-danger"></span>
+  </div><div class="col-md-6">
+    <label asp-for="SignoVital.Temperatura" class="form-label">Temperatura</label>
+    <input type="text" asp-for="SignoVital.Temperatura" class="form-control" id="txtTemperatura">
+    <span asp-validation-for="SignoVital.Temperatura"class="text-danger"></span>
   </div>
-  <div class="col-12">
-    <div class="col-md-6">
-    <label asp-for="SignoVital.PacienteId" class="form-label">PacienteId</label>
-    <input type="text" asp-for="SignoVital.PacienteId" class="form-control" id="txtPacienteId">
-    <span asp-validation-for="SignoVital.PacienteId"class="text-danger"></span>
-  </div>
+  
+  <div class="col-md-4">
+        <span class="input-group-text" id="Paciente">Paciente</span>
+        <select asp-for="SignoVital.PacienteId" class="form-select">
+            <option selected>Selecciona Paciente</option>
+
+            @foreach (var paciente in Model.Pacientes)
+            {
+                <option value="@paciente.Id">@paciente.Nombre @paciente.Apellido</option>
+            }
+            
+        </select>
+        <span asp-validation-for="SignoVital.PacienteId" class="form-danger"></span>
+    </div>
+  
   <div class="col-12">
     <button type="Guardar" class="btn btn-primary">Guardar</button>
   </div>
