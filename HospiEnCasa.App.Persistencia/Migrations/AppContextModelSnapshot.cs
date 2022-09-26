@@ -6,8 +6,6 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-#nullable disable
-
 namespace HospiEnCasa.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
@@ -17,18 +15,16 @@ namespace HospiEnCasa.App.Persistencia.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.0")
-                .HasAnnotation("Relational:MaxIdentifierLength", 128);
-
-            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
+                .HasAnnotation("Relational:MaxIdentifierLength", 128)
+                .HasAnnotation("ProductVersion", "5.0.9")
+                .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
             modelBuilder.Entity("HospiEnCasa.App.Dominio.Enfermera", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Apellido")
                         .IsRequired()
@@ -63,9 +59,8 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Apellido")
                         .IsRequired()
@@ -107,9 +102,8 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Diagnostico")
                         .IsRequired()
@@ -119,13 +113,7 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("PacienteId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("PacienteId")
-                        .IsUnique();
 
                     b.ToTable("Historias");
                 });
@@ -134,9 +122,8 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Apellido")
                         .IsRequired()
@@ -172,9 +159,8 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Apellido")
                         .IsRequired()
@@ -198,6 +184,11 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                     b.Property<int>("Genero")
                         .HasColumnType("int");
 
+                    b.Property<int?>("HistoriaId")
+                        .HasColumnType("int");
+
+
+
                     b.Property<int>("MedicoId")
                         .HasColumnType("int");
 
@@ -214,6 +205,8 @@ namespace HospiEnCasa.App.Persistencia.Migrations
 
                     b.HasIndex("EnfermeraId");
 
+                    b.HasIndex("HistoriaId");
+
                     b.HasIndex("MedicoId");
 
                     b.ToTable("Pacientes");
@@ -223,9 +216,8 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<DateTime>("FechaHora")
                         .HasColumnType("datetime2");
@@ -260,9 +252,8 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Descripcion")
                         .IsRequired()
@@ -285,9 +276,11 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                    b.Property<int>("IdRol")
+                        .HasColumnType("int");
 
                     b.Property<string>("Password")
                         .IsRequired()
@@ -311,15 +304,6 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("HospiEnCasa.App.Dominio.Historia", b =>
-                {
-                    b.HasOne("HospiEnCasa.App.Dominio.Paciente", null)
-                        .WithOne("Historia")
-                        .HasForeignKey("HospiEnCasa.App.Dominio.Historia", "PacienteId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
             modelBuilder.Entity("HospiEnCasa.App.Dominio.Paciente", b =>
                 {
                     b.HasOne("HospiEnCasa.App.Dominio.Enfermera", "Enfermera")
@@ -328,6 +312,11 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+
+                    b.HasOne("HospiEnCasa.App.Dominio.Historia", "Historia")
+                        .WithMany()
+                        .HasForeignKey("HistoriaId");
+
                     b.HasOne("HospiEnCasa.App.Dominio.Medico", "Medico")
                         .WithMany("ListaPacientes")
                         .HasForeignKey("MedicoId")
@@ -335,6 +324,8 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                         .IsRequired();
 
                     b.Navigation("Enfermera");
+
+                    b.Navigation("Historia");
 
                     b.Navigation("Medico");
                 });
@@ -379,9 +370,6 @@ namespace HospiEnCasa.App.Persistencia.Migrations
             modelBuilder.Entity("HospiEnCasa.App.Dominio.Paciente", b =>
                 {
                     b.Navigation("FamiliarDesignado")
-                        .IsRequired();
-
-                    b.Navigation("Historia")
                         .IsRequired();
 
                     b.Navigation("ListaSignoVital");
