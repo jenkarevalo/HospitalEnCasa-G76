@@ -8,6 +8,7 @@
 <h3>@ViewData["Error"]</h3>
 <form method="POST" class="row g-3">
   <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+  <input type="Hidden" asp-for="signoVital.Id" class="form-control" id="txtPresionArterial">
   <div class="col-md-6">
     <label asp-for="signoVital.PresionArterial" class="form-label">PresionArterial</label>
     <input type="text" asp-for="signoVital.PresionArterial" class="form-control" id="txtPresionArterial">
