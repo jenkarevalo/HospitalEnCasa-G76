@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace HospiEnCasa.App.Persistencia.Migrations
 {
-    public partial class Inicial : Migration
+    public partial class Initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -104,7 +104,7 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                     Direccion = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Ciudad = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     FechaNacimiento = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    HistoriaId = table.Column<int>(type: "int", nullable: false),
+                    HistoriaId = table.Column<int>(type: "int", nullable: true),
                     MedicoId = table.Column<int>(type: "int", nullable: false),
                     EnfermeraId = table.Column<int>(type: "int", nullable: false),
                     Nombre = table.Column<string>(type: "nvarchar(15)", maxLength: 15, nullable: false),
@@ -125,8 +125,7 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                         name: "FK_Pacientes_Historias_HistoriaId",
                         column: x => x.HistoriaId,
                         principalTable: "Historias",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Id");
                     table.ForeignKey(
                         name: "FK_Pacientes_Medicos_MedicoId",
                         column: x => x.MedicoId,

@@ -1,15 +1,23 @@
 using HospiEnCasa.App.Persistencia;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using HospiEnCasa.App.Frontend.Areas.Identity.Data;
 
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("IdentityDataContextConnection") ?? throw new InvalidOperationException("Connection string 'IdentityDataContextConnection' not found.");
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 
 builder.Services.AddDbContext<HospiEnCasa.App.Persistencia.AppContext>();
-builder.Services.AddScoped<IRepositorioMedico, RepositorioMedico>();
-builder.Services.AddScoped<IRepositorioPaciente, RepositorioPaciente>();
-builder.Services.AddScoped<IRepositorioFamiliarDesignado, RepositorioFamiliarDesignado>();
-builder.Services.AddScoped<IRepositorioUsuario, RepositorioUsuario>();
+builder.Services.AddDbContext<IdentityDataContext>(options =>
+    options.UseSqlServer(connectionString));
+builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddEntityFrameworkStores<IdentityDataContext>();
+builder.Services.AddTransient<IRepositorioMedico, RepositorioMedico>();
+builder.Services.AddTransient<IRepositorioPaciente, RepositorioPaciente>();
+builder.Services.AddTransient<IRepositorioFamiliarDesignado, RepositorioFamiliarDesignado>();
+builder.Services.AddTransient<IRepositorioUsuario, RepositorioUsuario>();
 
 
 var app = builder.Build();
@@ -26,6 +34,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseAuthentication();;
 
 app.UseAuthorization();
 
