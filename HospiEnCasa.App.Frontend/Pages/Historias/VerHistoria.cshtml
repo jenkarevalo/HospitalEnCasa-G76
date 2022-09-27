@@ -1,0 +1,23 @@
+﻿@page
+@model HospiEnCasa.App.Frontend.Pages.VerHistoriaModel
+@{
+}
+<h1>Informacion de historia</h1>
+<p>
+    <a asp-page="./ListaHistorias">Listado de Historias</a>
+</p>
+
+<form method="POST">
+    </div>
+    <div class="card border-success mb-3" style="max-width: 20rem;">
+        <div class="card-header">Información de historia</div>
+        <div class="card-body text-success">
+            <h5 class="card-title">
+                <label asp-for="Historia.Entorno" class="control-label"></label>
+                <input type="text" asp-for="Historia.Entorno" class="form-control" readonly/>
+                <label asp-for="Historia.Diagnostico" class="control-label"></label>
+                <input type="text" asp-for="Historia.Diagnostico" class="form-control" readonly/>
+            </h5>
+        </div>
+    </div>
+</form>

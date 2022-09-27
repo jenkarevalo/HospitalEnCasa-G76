@@ -1,0 +1,50 @@
+﻿@page
+@model HospiEnCasa.App.Frontend.Pages.ListaHistoriasModel
+@{
+    ViewData["Title"] = "Historias";
+}
+
+<h1>Listado de Historias</h1>
+<hr>
+<div class="col-12">
+    <button type="button" class="btn btn-outline-success">
+        <a asp-page="CrearHistoria">Crear Historias</a>
+    </button>
+</div>
+<br> <br>
+
+<form method="POST">
+    <table class="table table-success table-striped">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Diagnostico</th>
+                <th scope="col">Entorno</th>
+                <th scope ="col">Paciente</th>
+                <th scope="col"colspan="3"><center>Opciones</center></th>
+            </tr>
+        </thead>
+        <tbody>
+        <br>    
+            @{
+                int numFila = 1;
+                foreach (var historia in Model.Historias)
+                {
+                    <tr>
+                        <th scope="row">@numFila</th>
+                        <td>@historia.Diagnostico</td>
+                        <td>@historia.Entorno</td>
+                        <td>@historia.PacienteId</td>
+                        <td><a asp-page="./EditarHistoria" asp-route-id="@historia.Id">
+                        <button type="button" class="btn btn-success">Editar</button></a></td>
+                        <td><a asp-page="./VerHistoria" asp-route-id="@historia.Id">
+                        <button type="button" class="btn btn-success">Informacion</button></a></td>
+                        <td><a asp-page="./EliminarHistoria" asp-route-id="@historia.Id">
+                        <button type="button" class="btn btn-success">Eliminar</button></a></td>
+                    </tr>
+                    numFila++;
+                }
+            }
+        </tbody>
+    </table>
+</form>

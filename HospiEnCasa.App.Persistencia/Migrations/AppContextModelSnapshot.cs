@@ -188,8 +188,11 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                     b.Property<int?>("HistoriaId")
                         .HasColumnType("int");
 
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> 0886f3edc69dda2ea9ae55be37263b5199878e79
                     b.Property<int>("MedicoId")
                         .HasColumnType("int");
 
@@ -313,9 +316,14 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+<<<<<<< HEAD
+                    b.HasOne("HospiEnCasa.App.Dominio.Historia", "Historia")
+                        .WithMany("ListaPacientes")
+=======
 
                     b.HasOne("HospiEnCasa.App.Dominio.Historia", "Historia")
                         .WithMany()
+>>>>>>> 0886f3edc69dda2ea9ae55be37263b5199878e79
                         .HasForeignKey("HistoriaId");
 
                     b.HasOne("HospiEnCasa.App.Dominio.Medico", "Medico")
@@ -360,6 +368,8 @@ namespace HospiEnCasa.App.Persistencia.Migrations
 
             modelBuilder.Entity("HospiEnCasa.App.Dominio.Historia", b =>
                 {
+                    b.Navigation("ListaPacientes");
+
                     b.Navigation("ListaSugerenciaCuidado");
                 });
 
