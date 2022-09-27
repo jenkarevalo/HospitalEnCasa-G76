@@ -48,6 +48,7 @@
                         <td><a asp-page="./EliminarMedico" asp-route-id="@medico.Id">
                         <button type="button" class="btn btn-danger">Eliminar</button></a></td>
                         <td><a asp-page-Handler="Medico" asp-page="../Pacientes/ListaPacientes" asp-route-idMedico="@medico.Id">
+                        <td><a asp-page-Handler="Medico" asp-page="../Historia/ListaHistorias" asp-route-idMedico="@medico.Id"></a>
                         <button type="button" class="btn btn-success">Informacion de pacientes</button></a></td>
                     </tr>
                     numFila++;

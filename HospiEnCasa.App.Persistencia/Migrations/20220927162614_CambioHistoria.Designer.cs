@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HospiEnCasa.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20220922215829_actualizacion_de_Ids")]
-    partial class actualizacion_de_Ids
+    [Migration("20220927162614_CambioHistoria")]
+    partial class CambioHistoria
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -126,9 +126,6 @@ namespace HospiEnCasa.App.Persistencia.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("PacienteId")
-                        .IsUnique();
-
                     b.ToTable("Historias");
                 });
 
@@ -191,7 +188,7 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("EnfermeraId")
+                    b.Property<int>("EnfermeraId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("FechaNacimiento")
@@ -200,7 +197,10 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                     b.Property<int>("Genero")
                         .HasColumnType("int");
 
-                    b.Property<int?>("MedicoId")
+                    b.Property<int?>("HistoriaId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MedicoId")
                         .HasColumnType("int");
 
                     b.Property<string>("Nombre")
@@ -215,6 +215,8 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("EnfermeraId");
+
+                    b.HasIndex("HistoriaId");
 
                     b.HasIndex("MedicoId");
 
@@ -305,26 +307,27 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("HospiEnCasa.App.Dominio.Historia", b =>
-                {
-                    b.HasOne("HospiEnCasa.App.Dominio.Paciente", null)
-                        .WithOne("Historia")
-                        .HasForeignKey("HospiEnCasa.App.Dominio.Historia", "PacienteId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
             modelBuilder.Entity("HospiEnCasa.App.Dominio.Paciente", b =>
                 {
                     b.HasOne("HospiEnCasa.App.Dominio.Enfermera", "Enfermera")
                         .WithMany("ListaPacientes")
-                        .HasForeignKey("EnfermeraId");
+                        .HasForeignKey("EnfermeraId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("HospiEnCasa.App.Dominio.Historia", "Historia")
+                        .WithMany("ListaPacientes")
+                        .HasForeignKey("HistoriaId");
 
                     b.HasOne("HospiEnCasa.App.Dominio.Medico", "Medico")
                         .WithMany("ListaPacientes")
-                        .HasForeignKey("MedicoId");
+                        .HasForeignKey("MedicoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Enfermera");
+
+                    b.Navigation("Historia");
 
                     b.Navigation("Medico");
                 });
@@ -358,6 +361,8 @@ namespace HospiEnCasa.App.Persistencia.Migrations
 
             modelBuilder.Entity("HospiEnCasa.App.Dominio.Historia", b =>
                 {
+                    b.Navigation("ListaPacientes");
+
                     b.Navigation("ListaSugerenciaCuidado");
                 });
 
@@ -369,9 +374,6 @@ namespace HospiEnCasa.App.Persistencia.Migrations
             modelBuilder.Entity("HospiEnCasa.App.Dominio.Paciente", b =>
                 {
                     b.Navigation("FamiliarDesignado")
-                        .IsRequired();
-
-                    b.Navigation("Historia")
                         .IsRequired();
 
                     b.Navigation("ListaSignoVital");
