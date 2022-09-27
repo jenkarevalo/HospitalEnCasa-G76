@@ -6,10 +6,23 @@ namespace HospiEnCasa.App.Frontend.Areas.Identity.Data;
 
 public class IdentityDataContext : IdentityDbContext<IdentityUser>
 {
+   /* public IdentityDataContext() {
+        
+    }*/
+
     public IdentityDataContext(DbContextOptions<IdentityDataContext> options)
         : base(options)
     {
     }
+
+/*protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        if (!optionsBuilder.IsConfigured)
+        {
+            optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Users");
+        }
+    }*/
+
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
