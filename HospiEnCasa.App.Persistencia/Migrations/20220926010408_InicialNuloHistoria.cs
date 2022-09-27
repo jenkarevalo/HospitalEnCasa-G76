@@ -1,11 +1,9 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-#nullable disable
-
 namespace HospiEnCasa.App.Persistencia.Migrations
 {
-    public partial class Initial : Migration
+    public partial class InicialNuloHistoria : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -66,12 +64,8 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     User = table.Column<string>(type: "nvarchar(max)", nullable: false),
-<<<<<<<< HEAD:HospiEnCasa.App.Persistencia/Migrations/20220926024900_Inicial.cs
-                    Password = table.Column<string>(type: "nvarchar(max)", nullable: false)
-========
                     Password = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     IdRol = table.Column<int>(type: "int", nullable: false)
->>>>>>>> 0886f3edc69dda2ea9ae55be37263b5199878e79:HospiEnCasa.App.Persistencia/Migrations/20220927034800_Initial.cs
                 },
                 constraints: table =>
                 {
@@ -129,7 +123,8 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                         name: "FK_Pacientes_Historias_HistoriaId",
                         column: x => x.HistoriaId,
                         principalTable: "Historias",
-                        principalColumn: "Id");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_Pacientes_Medicos_MedicoId",
                         column: x => x.MedicoId,

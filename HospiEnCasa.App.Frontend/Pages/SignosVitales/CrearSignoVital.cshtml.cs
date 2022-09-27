@@ -9,12 +9,20 @@ namespace HospiEnCasa.Frontend.Pages
     {
         //Conexion a la Bds
         private static IRepositorioSignoVital _repositorioSignoVital= new RepositorioSignoVital(new HospiEnCasa.App.Persistencia.AppContext());
+        private static IRepositorioPaciente _repositorioPaciente = new RepositorioPaciente(new HospiEnCasa.App.Persistencia.AppContext());
+
+        public IEnumerable<Paciente> Pacientes {get; set;}
+
         [BindProperty]
         public SignoVital SignoVital{get; set;} 
+
+        //consultar listado pacientes Bds
         public CrearSignoVitalModel()
         {}
+        
         public ActionResult OnGet()
         {
+            this.Pacientes = _repositorioPaciente.GetAllPacientes();
             return Page();
         }
         public ActionResult OnPost()

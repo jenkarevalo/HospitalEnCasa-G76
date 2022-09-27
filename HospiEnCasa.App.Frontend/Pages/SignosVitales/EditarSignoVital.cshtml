@@ -1,0 +1,45 @@
+﻿@page
+@model HospiEnCasa.Frontend.Pages.EditarSignoVitalModel
+@{
+    ViewData["Title"]="Editar Signo Vital";
+}
+
+<h1>Edita Signo Vital</h1>
+<h3>@ViewData["Error"]</h3>
+<form method="POST" class="row g-3">
+  <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+  <div class="col-md-6">
+    <label asp-for="signoVital.PresionArterial" class="form-label">PresionArterial</label>
+    <input type="text" asp-for="signoVital.PresionArterial" class="form-control" id="txtPresionArterial">
+    <span asp-validation-for="signoVital.PresionArterial"class="text-danger"></span>
+  </div>
+  <div class="col-md-6">
+    <label asp-for="signoVital.Respiracion" class="form-label">Respiracion</label>
+    <input type="text" asp-for="signoVital.Respiracion" class="form-control" id="txtRespiracion">
+    <span asp-validation-for="signoVital.Respiracion"class="text-danger"></span>
+  </div><div class="col-md-6">
+    <label asp-for="signoVital.Pulso" class="form-label">Pulso</label>
+    <input type="text" asp-for="signoVital.Pulso" class="form-control" id="txtPulso">
+    <span asp-validation-for="signoVital.Pulso"class="text-danger"></span>
+  </div><div class="col-md-6">
+    <label asp-for="signoVital.Temperatura" class="form-label">Temperatura</label>
+    <input type="text" asp-for="signoVital.Temperatura" class="form-control" id="txtTemperatura">
+    <span asp-validation-for="signoVital.Temperatura"class="text-danger"></span>
+  </div>
+  <div class="col-md-4">
+        <span class="input-group-text" id="Paciente">Paciente</span>
+        <select asp-for="signoVital.PacienteId" class="form-select">
+            <option selected>Selecciona Paciente</option>
+
+            @foreach (var paciente in Model.Pacientes)
+            {
+                <option value="@paciente.Id">@paciente.Nombre @paciente.Apellido</option>
+            }
+            
+        </select>
+        <span asp-validation-for="signoVital.PacienteId" class="form-danger"></span>
+    </div>
+    <div class="col-12">
+        <button type="submit" class="btn btn-success">Guardar</button>
+    </div>
+</form>
