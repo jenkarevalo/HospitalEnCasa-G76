@@ -18,7 +18,7 @@ namespace HospiEnCasa.Frontend.Pages
         {}
         public void OnGet()
         {
-            this.SignoVital = _repositorioSignoVital.GetAllSignosVitales();
+            this.SignoVital = _repositorioSignoVital.GetAllSignosVitalesAndPacientes();
         }
     }
 }

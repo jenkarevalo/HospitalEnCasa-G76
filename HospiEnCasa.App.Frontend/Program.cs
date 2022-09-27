@@ -7,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("IdentityDataContextConnection") ?? throw new InvalidOperationException("Connection string 'IdentityDataContextConnection' not found.");
 
 // Add services to the container.
+builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
 builder.Services.AddDbContext<HospiEnCasa.App.Persistencia.AppContext>();
@@ -34,10 +35,10 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-app.UseAuthentication();;
+app.UseAuthentication();
 
 app.UseAuthorization();
 
 app.MapRazorPages();
-
+app.UseEndpoints(endpoints=>{endpoints.MapRazorPages();});
 app.Run();
