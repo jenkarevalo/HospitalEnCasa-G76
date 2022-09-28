@@ -26,6 +26,7 @@ namespace HospiEnCasa.Frontend.Pages
         {
             try
             {
+                Console.WriteLine(signoVital.Id);
                 SignoVital signoVitalActualizado= _repositorioSignoVital.UpdateSignoVital(signoVital);
                 return RedirectToPage("./ListadoSignosVitales");
             }

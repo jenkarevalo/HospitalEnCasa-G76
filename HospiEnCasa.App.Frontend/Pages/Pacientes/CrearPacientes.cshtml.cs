@@ -21,7 +21,6 @@ namespace HospiEnCasa.Frontend.Pages
 
         public CrearPacientesModel()
         { }
-
         public ActionResult OnGet()
         {
             this.Medicos = _repositorioMedico.GetAllMedicos();

@@ -1,0 +1,48 @@
+﻿@page
+@model HospiEnCasa.App.Frontend.Pages.ListaSugerenciaCuidadosModel
+@{
+    //C#
+    ViewData["Title"] = "Listado de Sugerencia Cuidados";
+
+}
+
+<h1> Listado de Sugerencia de Cuidados</h1>
+<hr>
+<div class="col-12">
+    <button type="button" class="btn btn-outline-success">
+        <a asp-page="CrearSugerenciaCuidados">Adicionar nueva Sugerencia</a>
+    </button> 
+</div>
+
+<form method="POST">
+    <table class="table table-success table-striped">
+        <thead>
+            <tr>                
+                <th scope="col">Id</th>
+                <th scope="col">Fecha</th>
+                <th scope="col">Descripcion</th>
+                <th scope="col"colspan="3"><center>Opciones</center></th>
+
+            </tr>
+        </thead>
+        <tbody>
+        <hr>
+            @foreach (var sugerenciaCuidado in Model.SugerenciaCuidado)
+            {
+                <tr>
+                    <td scope="row">@sugerenciaCuidado.Id</td>
+                    <td>@sugerenciaCuidado.FechaHora</td>
+                    <td>@sugerenciaCuidado.Descripcion</td>
+                    <td>@sugerenciaCuidado.Historia.Diagnostico</td>
+                    <td><a asp-page="./EditarsugerenciaCuidado" asp-route-id="@sugerenciaCuidado.Id">
+                    <button type="button" class="btn btn-success">Editar</button></a></td>
+                    <td><a asp-page="./VersugerenciaCuidadol" asp-route-id="@sugerenciaCuidado.Id">
+                    <button type="button" class="btn btn-success">Informacion</button></a></td>
+                    <td><a asp-page="./EliminarsugerenciaCuidado" asp-route-id="@sugerenciaCuidado.Id">
+                    <button type="button" class="btn btn-success">Eliminar</button></a></td>
+                </tr>             
+            }
+    
+        </tbody>
+    </table>
+</form> 

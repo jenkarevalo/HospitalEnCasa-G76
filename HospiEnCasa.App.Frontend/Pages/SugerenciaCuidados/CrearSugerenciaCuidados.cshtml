@@ -1,0 +1,37 @@
+﻿@page
+@model HospiEnCasa.App.Frontend.Pages.CrearSugerenciaCuidadosModel
+@{
+    ViewData["Title"]="Crear Sugerencia de Cuidados";
+}
+
+<h1>Adicionar Sugerencia de Cuidados</h1>
+<h3>@ViewData["Error"]</h3>
+<form method="POST" class="row g-3">
+  <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+  <div class="col-md-6">
+    <label asp-for="SugerenciaCuidado.FechaHora" class="form-label">FechaHora</label>
+    <input type="text" asp-for="SugerenciaCuidado.FechaHora" class="form-control" id="txtFechaHora">
+    <span asp-validation-for="SugerenciaCuidado.FechaHora"class="text-danger"></span>
+  </div>
+  <div class="col-md-6">
+    <label asp-for="SugerenciaCuidado.Descripcion" class="form-label">Descripcion</label>
+    <input type="text" asp-for="SugerenciaCuidado.Descripcion" class="form-control" id="txtDescripcion">
+    <span asp-validation-for="SugerenciaCuidado.Descripcion"class="text-danger"></span>
+  
+  <div class="col-md-4">
+        <span class="input-group-text" id="Historia">Historia</span>
+        <select asp-for="SugerenciaCuidado.HistoriaId" class="form-select">
+            <option selected>Selecciona Historia</option>
+
+            @foreach (var historia in Model.Historias)
+            {
+                <option value="@historia.Id">@historia.Diagnostico</option>
+            }
+            
+        </select>
+        <span asp-validation-for="SugerenciaCuidado.HistoriaId" class="form-danger"></span>
+    </div>
+    <div class="col-12">
+        <button type="submit" class="btn btn-success" id="alerta">Guardar</button>
+    </div>
+</form>

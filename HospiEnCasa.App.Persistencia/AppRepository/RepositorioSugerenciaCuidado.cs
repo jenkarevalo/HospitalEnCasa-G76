@@ -1,5 +1,6 @@
 using System;
 using HospiEnCasa.App.Dominio;
+using Microsoft.EntityFrameworkCore;
 
 namespace HospiEnCasa.App.Persistencia
 {
@@ -28,9 +29,24 @@ namespace HospiEnCasa.App.Persistencia
         {
             return _appContext.SugerenciasCuidados.FirstOrDefault(p => p.Id == idSugerenciaCuidado);
         }
+        public SugerenciaCuidado GetSugerenciaCuidadoAndPaciente (int idSugerenciaCuidado)
+       {
+          return _appContext.SugerenciasCuidados.Include(b => b.Historia).FirstOrDefault(s => s.Id == idSugerenciaCuidado);
+       }
         public IEnumerable<SugerenciaCuidado> GetAllSugerenciasCuidados()
         {
             return _appContext.SugerenciasCuidados;
+        }
+        public IEnumerable<SugerenciaCuidado> GetAllSugerenciaCuidadosAndPacientes()
+       {
+          return _appContext.SugerenciasCuidados.Include(b => b.Historia);
+       }
+
+        public IEnumerable<SugerenciaCuidado> GetSugerenciaCuidadoXPaciente(int idHistoria)
+        {
+            Console.WriteLine("Id Historia: " + idHistoria);
+            return
+                this._appContext.SugerenciasCuidados.Where(sv => sv.HistoriaId == idHistoria);
         }
         public SugerenciaCuidado UpdateSugerenciaCuidado(SugerenciaCuidado sugerenciaCuidado)
         {
@@ -41,7 +57,6 @@ namespace HospiEnCasa.App.Persistencia
                 sugerenciaCuidadoEncontrado.FechaHora = sugerenciaCuidado.FechaHora;
                 sugerenciaCuidadoEncontrado.Descripcion = sugerenciaCuidado.Descripcion;
                 sugerenciaCuidadoEncontrado.Historia = sugerenciaCuidado.Historia;
-                sugerenciaCuidadoEncontrado.HistoriaId = sugerenciaCuidado.HistoriaId;
 
                 _appContext.SaveChanges();
             }
@@ -53,5 +68,4 @@ namespace HospiEnCasa.App.Persistencia
             throw new NotImplementedException();
         }
     }
-}
-
+}   

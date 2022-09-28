@@ -1,0 +1,36 @@
+﻿@page
+@model HospiEnCasa.App.Frontend.Pages.EditarHistoriaModel
+@{
+}
+
+<h1>Editar información de historia</h1>
+<h2>@ViewData["Error"]</h2>
+<form method="POST" class="row g-3">
+    <input Type= "hidden" asp-for="Historia.Id"></input>    
+    <div class="col-md-6">
+        <label class="form-label">Entorno</label>
+        <textarea class="form-control" asp-for="Historia.Entorno" id="txtEntorno" placeholder="Requiere descripcion de Entorno" required></textarea>
+    </div>
+    <div class="col-6">
+        <label class="form-label">Diagnostico</label>
+        <textarea class="form-control" asp-for="Historia.Diagnostico" id="txtDiagnostico" placeholder="Requiere descripcion de Diagnostico" required></textarea>
+    </div>
+
+    <div class="col-md-4">
+        <span class="input-group-text" id="Paciente">Paciente</span>
+        <select asp-for="Historia.PacienteId" class="form-select">
+            <option selected>Seleccionar Paciente</option>
+
+            @foreach (var paciente in Model.Pacientes)
+            {
+                <option value="@paciente.Id">@paciente.Nombre @paciente.Apellido</option>
+            }
+
+        </select>
+        <span asp-validation-for="Historia.PacienteId" class="form-danger"></span>
+    </div>
+
+    <div class="col-12">
+        <button type="submit" class="btn btn-success">Guardar</button>
+    </div>
+</form>

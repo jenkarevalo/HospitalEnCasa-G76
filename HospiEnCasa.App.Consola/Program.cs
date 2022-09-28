@@ -10,6 +10,7 @@ public class Program
    private static IRepositorioEnfermera _repositorioEnfermera = new RepositorioEnfermera(new HospiEnCasa.App.Persistencia.AppContext());
    //private static IRepositorioFamiliarDesignado _repositorioFamiliarDesignado = new RepositorioFamiliarDesignado(new HospiEnCasa.App.Persistencia.AppContext());
    //private static IRepositorioSignoVital _repositorioSignoVital = new RepositorioSignoVital(new HospiEnCasa.App.Persistencia.AppContext());
+   private static IRepositorioHistoria _repositorioHistoria = new RepositorioHistoria(new HospiEnCasa.App.Persistencia.AppContext());
    private static void Main(String[] args)
    {
       Console.WriteLine("Has hecho un buen trabajo!");
@@ -23,10 +24,23 @@ public class Program
       //BuscarEnfermera();
       //AdicionarFamiliarDesignado();
       //BuscarFamiliarDesignado();
-      EscogerMedico();
+      ///EscogerMedico();
       //EscogerEnfermera();
       //AdicionarSignoVital();
       //BuscarSignoVital();
+      AdicionarHistoria();
+   }
+
+   static void AdicionarHistoria()
+   {
+      Console.WriteLine("Adicionando una Historia");
+      Historia historia = new Historia();
+      historia.Diagnostico = "Hola";
+      historia.Entorno = "Hola";
+      historia.PacienteId = 2;
+      
+      _repositorioHistoria.AddHistoria(historia);
+      Console.WriteLine("Historia Adicionada Correctamente");
    }
 
    /*public static void EscogerEnfermera()
@@ -50,7 +64,7 @@ public class Program
 
       _repositorioEnfermera.UpdateEnfermera(enfermera);
       Console.WriteLine("Accion realizada");
-   }*/
+   }
    public static void EscogerMedico()
    {
       Medico medico = _repositorioMedico.GetMedico(13);

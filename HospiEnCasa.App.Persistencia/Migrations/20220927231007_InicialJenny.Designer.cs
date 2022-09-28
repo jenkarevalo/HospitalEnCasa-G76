@@ -12,14 +12,14 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HospiEnCasa.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20220925195731_Prueba")]
-    partial class Prueba
+    [Migration("20220927231007_InicialJenny")]
+    partial class InicialJenny
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.0")
+                .HasAnnotation("ProductVersion", "6.0.9")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
@@ -291,6 +291,9 @@ namespace HospiEnCasa.App.Persistencia.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
+                    b.Property<int>("IdRol")
+                        .HasColumnType("int");
+
                     b.Property<string>("Password")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -315,11 +318,13 @@ namespace HospiEnCasa.App.Persistencia.Migrations
 
             modelBuilder.Entity("HospiEnCasa.App.Dominio.Historia", b =>
                 {
-                    b.HasOne("HospiEnCasa.App.Dominio.Paciente", null)
+                    b.HasOne("HospiEnCasa.App.Dominio.Paciente", "Paciente")
                         .WithOne("Historia")
                         .HasForeignKey("HospiEnCasa.App.Dominio.Historia", "PacienteId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Paciente");
                 });
 
             modelBuilder.Entity("HospiEnCasa.App.Dominio.Paciente", b =>
