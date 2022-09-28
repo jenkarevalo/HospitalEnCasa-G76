@@ -66,7 +66,7 @@ namespace HospiEnCasa.App.Persistencia
             signoVitalEncontrado.Respiracion = signoVital.Respiracion;
             signoVitalEncontrado.Pulso = signoVital.Pulso;
             signoVitalEncontrado.Temperatura = signoVital.Temperatura;
-            signoVitalEncontrado.Paciente = signoVital.Paciente;
+            signoVitalEncontrado.PacienteId = signoVital.PacienteId;
 
             _appContext.SaveChanges();
   
