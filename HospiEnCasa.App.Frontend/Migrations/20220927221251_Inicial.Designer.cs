@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HospiEnCasa.App.Frontend.Migrations
 {
     [DbContext(typeof(IdentityDataContext))]
-    [Migration("20220927050609_Initial")]
-    partial class Initial
+    [Migration("20220927221251_Inicial")]
+    partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

@@ -34,9 +34,18 @@
         <input type="text" asp-for="FamiliarDesignado.Correo" class="form-control" id="Correo">
          <span asp-validation-for= "FamiliarDesignado.Correo" class = "text-danger"></span>
     </div>
-    <div class="col-md-4">
-        <label asp-for="FamiliarDesignado.PacienteId" class="form-label">IdPaciente</label>
-        <input type="text" asp-for="FamiliarDesignado.PacienteId" class="form-control" id="IdPaciente">
+   <div class="col-md-4">
+        <span class="input-group-text" id="Paciente">Paciente</span>
+        <select asp-for="FamiliarDesignado.PacienteId" class="form-select">
+            <option selected>Selecciona Paciente</option>
+
+            @foreach (var paciente in Model.Pacientes)
+            {
+                <option value="@paciente.Id">@paciente.Nombre @paciente.Apellido</option>
+            }
+
+        </select>
+        <span asp-validation-for="FamiliarDesignado.PacienteId" class="form-danger"></span>
     </div>
     <div class="col-md-4">
         <label asp-for="FamiliarDesignado.Genero" class="form-label">Genero</label>
