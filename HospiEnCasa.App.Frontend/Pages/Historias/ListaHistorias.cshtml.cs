@@ -17,7 +17,7 @@ namespace HospiEnCasa.App.Frontend.Pages
         {}
         public void OnGet()
         {
-            this.Historias = _repositorioHistoria.GetAllHistorias();
+            this.Historias = _repositorioHistoria.GetAllHistoriasAndPacientes();
         }
     }
 }

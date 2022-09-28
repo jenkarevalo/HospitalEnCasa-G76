@@ -9,7 +9,8 @@ namespace HospiEnCasa.App.Dominio
        [Required(ErrorMessage="El campo Diagnostico es obligatorio")]
        public string Diagnostico {get; set;}
        public string Entorno {get; set;}
-       public List<Paciente> ListaPacientes {get; set;}
+       public int PacienteId {get; set;}
+       public Paciente Paciente {get; set;}
        public List<SugerenciaCuidado> ListaSugerenciaCuidado {get; set;}
 
     }

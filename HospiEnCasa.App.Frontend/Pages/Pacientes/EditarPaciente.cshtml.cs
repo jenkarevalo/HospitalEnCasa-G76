@@ -8,11 +8,10 @@ namespace HospiEnCasa.Frontend.Pages
     public class EditarPacienteModel : PageModel
     {
         private static IRepositorioMedico _repositorioMedico = new RepositorioMedico(new HospiEnCasa.App.Persistencia.AppContext());
-<<<<<<< HEAD
-=======
+
         [BindProperty]
->>>>>>> 0886f3edc69dda2ea9ae55be37263b5199878e79
         public IEnumerable<Medico> Medicos { get; set; }
+        
         private static IRepositorioPaciente _repositorioPaciente = new RepositorioPaciente(new HospiEnCasa.App.Persistencia.AppContext());
 
         [BindProperty]

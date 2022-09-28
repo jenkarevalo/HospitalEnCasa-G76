@@ -8,7 +8,9 @@ namespace HospiEnCasa.App.Persistencia
         Historia AddHistoria(Historia historia);
         void DeleteHistoria(int idHistoria);
         Historia GetHistoria(int idHistoria);
+        Historia GetHistoriaAndPaciente(int idHistoria);
         IEnumerable<Historia> GetAllHistorias();
+        IEnumerable<Historia> GetAllHistoriasAndPacientes();
         Historia UpdateHistoria (Historia historia);
     }
 }

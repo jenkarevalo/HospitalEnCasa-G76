@@ -64,7 +64,6 @@ namespace HospiEnCasa.App.Persistencia
                 pacienteEncontrado.FamiliarDesignado = paciente.FamiliarDesignado;
                 pacienteEncontrado.EnfermeraId = paciente.EnfermeraId;
                 pacienteEncontrado.MedicoId = paciente.MedicoId;
-                pacienteEncontrado.HistoriaId = paciente.HistoriaId;
 
                 _appContext.SaveChanges();
 

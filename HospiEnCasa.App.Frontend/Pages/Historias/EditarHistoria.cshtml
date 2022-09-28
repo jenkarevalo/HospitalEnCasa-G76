@@ -6,6 +6,7 @@
 <h1>Editar información de historia</h1>
 <h2>@ViewData["Error"]</h2>
 <form method="POST" class="row g-3">
+    <input Type= "hidden" asp-for="Historia.Id"></input>    
     <div class="col-md-6">
         <label class="form-label">Entorno</label>
         <textarea class="form-control" asp-for="Historia.Entorno" id="txtEntorno" placeholder="Requiere descripcion de Entorno" required></textarea>

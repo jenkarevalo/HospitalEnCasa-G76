@@ -34,7 +34,7 @@
                         <th scope="row">@numFila</th>
                         <td>@historia.Diagnostico</td>
                         <td>@historia.Entorno</td>
-                        <td>@historia.PacienteId</td>
+                        <td>@historia.Paciente.Nombre  @historia.Paciente.Apellido</td>
                         <td><a asp-page="./EditarHistoria" asp-route-id="@historia.Id">
                         <button type="button" class="btn btn-success">Editar</button></a></td>
                         <td><a asp-page="./VerHistoria" asp-route-id="@historia.Id">

@@ -1,5 +1,6 @@
 using System;
 using HospiEnCasa.App.Dominio;
+using Microsoft.EntityFrameworkCore;
 
 namespace HospiEnCasa.App.Persistencia
 {
@@ -28,9 +29,17 @@ namespace HospiEnCasa.App.Persistencia
         {
             return _appContext.Historias.FirstOrDefault(p => p.Id == idHistoria);
         }
+        public Historia GetHistoriaAndPaciente (int idHistoria)
+        {
+            return _appContext.Historias.Include(V => V.Paciente).FirstOrDefault(p => p.Id == idHistoria);
+        }
         public IEnumerable<Historia> GetAllHistorias()
         {
             return _appContext.Historias;
+        }
+         public IEnumerable<Historia> GetAllHistoriasAndPacientes()
+        {
+            return _appContext.Historias.Include(V => V.Paciente);
         }
         public Historia UpdateHistoria (Historia historia)
         {
@@ -39,6 +48,7 @@ namespace HospiEnCasa.App.Persistencia
             {
                 historiaEncontrada.Diagnostico = historia.Diagnostico;
                 historiaEncontrada.Entorno = historia.Entorno;
+                historiaEncontrada.PacienteId = historia.PacienteId;
 
                 _appContext.SaveChanges();
             }

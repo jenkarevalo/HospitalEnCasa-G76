@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace HospiEnCasa.App.Persistencia.Migrations
 {
-    public partial class Initial : Migration
+    public partial class InicialJenny : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -25,20 +25,6 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Enfermeras", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Historias",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Diagnostico = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Entorno = table.Column<string>(type: "nvarchar(max)", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Historias", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -66,37 +52,12 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     User = table.Column<string>(type: "nvarchar(max)", nullable: false),
-<<<<<<<< HEAD:HospiEnCasa.App.Persistencia/Migrations/20220926024900_Inicial.cs
-                    Password = table.Column<string>(type: "nvarchar(max)", nullable: false)
-========
                     Password = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     IdRol = table.Column<int>(type: "int", nullable: false)
->>>>>>>> 0886f3edc69dda2ea9ae55be37263b5199878e79:HospiEnCasa.App.Persistencia/Migrations/20220927034800_Initial.cs
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Usuarios", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "SugerenciasCuidados",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    FechaHora = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    HistoriaId = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_SugerenciasCuidados", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_SugerenciasCuidados_Historias_HistoriaId",
-                        column: x => x.HistoriaId,
-                        principalTable: "Historias",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -108,7 +69,6 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                     Direccion = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Ciudad = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     FechaNacimiento = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    HistoriaId = table.Column<int>(type: "int", nullable: true),
                     MedicoId = table.Column<int>(type: "int", nullable: false),
                     EnfermeraId = table.Column<int>(type: "int", nullable: false),
                     Nombre = table.Column<string>(type: "nvarchar(15)", maxLength: 15, nullable: false),
@@ -125,11 +85,6 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                         principalTable: "Enfermeras",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_Pacientes_Historias_HistoriaId",
-                        column: x => x.HistoriaId,
-                        principalTable: "Historias",
-                        principalColumn: "Id");
                     table.ForeignKey(
                         name: "FK_Pacientes_Medicos_MedicoId",
                         column: x => x.MedicoId,
@@ -164,14 +119,37 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Historias",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Diagnostico = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Entorno = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    PacienteId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Historias", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Historias_Pacientes_PacienteId",
+                        column: x => x.PacienteId,
+                        principalTable: "Pacientes",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "SignosVitales",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     FechaHora = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Signo = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Valor = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    PresionArterial = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Respiracion = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Pulso = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Temperatura = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     PacienteId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -185,6 +163,27 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "SugerenciasCuidados",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    FechaHora = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    HistoriaId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_SugerenciasCuidados", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_SugerenciasCuidados_Historias_HistoriaId",
+                        column: x => x.HistoriaId,
+                        principalTable: "Historias",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_Familiar_PacienteId",
                 table: "Familiar",
@@ -192,14 +191,15 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                 unique: true);
 
             migrationBuilder.CreateIndex(
+                name: "IX_Historias_PacienteId",
+                table: "Historias",
+                column: "PacienteId",
+                unique: true);
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Pacientes_EnfermeraId",
                 table: "Pacientes",
                 column: "EnfermeraId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Pacientes_HistoriaId",
-                table: "Pacientes",
-                column: "HistoriaId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Pacientes_MedicoId",
@@ -232,13 +232,13 @@ namespace HospiEnCasa.App.Persistencia.Migrations
                 name: "Usuarios");
 
             migrationBuilder.DropTable(
+                name: "Historias");
+
+            migrationBuilder.DropTable(
                 name: "Pacientes");
 
             migrationBuilder.DropTable(
                 name: "Enfermeras");
-
-            migrationBuilder.DropTable(
-                name: "Historias");
 
             migrationBuilder.DropTable(
                 name: "Medicos");
