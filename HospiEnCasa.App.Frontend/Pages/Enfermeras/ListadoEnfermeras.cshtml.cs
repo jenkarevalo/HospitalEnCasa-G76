@@ -2,9 +2,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using HospiEnCasa.App.Dominio;
 using HospiEnCasa.App.Persistencia;
+using Microsoft.AspNetCore.Authorization;
 
 namespace HospiEnCasa.App.Frontend.Pages
-{
+{   [Authorize]
     public class ListadoEnfermerasModel : PageModel
     {
         // Conexión a la Base de Datos

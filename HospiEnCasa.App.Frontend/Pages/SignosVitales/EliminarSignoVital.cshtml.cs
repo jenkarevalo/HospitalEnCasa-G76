@@ -2,9 +2,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using HospiEnCasa.App.Dominio;
 using HospiEnCasa.App.Persistencia;
+using Microsoft.AspNetCore.Authorization;
 
 namespace HospiEnCasa.Frontend.Pages
-{
+{    [Authorize]
     public class EliminarSignoVitalModel : PageModel
     {
         private static IRepositorioSignoVital _repositorioSignoVital = new RepositorioSignoVital(new HospiEnCasa.App.Persistencia.AppContext());

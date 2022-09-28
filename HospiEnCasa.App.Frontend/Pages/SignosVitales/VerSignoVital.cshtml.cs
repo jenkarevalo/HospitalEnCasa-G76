@@ -2,9 +2,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using HospiEnCasa.App.Persistencia;
 using HospiEnCasa.App.Dominio;
+using Microsoft.AspNetCore.Authorization;
+
 
 namespace HospiEnCasa.Frontend.Pages
-{
+{    [Authorize]
     public class VerSignoVitalModel : PageModel
     {
         // Conectarse a la Bd
