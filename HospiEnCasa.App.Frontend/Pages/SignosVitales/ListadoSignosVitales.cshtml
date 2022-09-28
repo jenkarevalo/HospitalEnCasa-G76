@@ -24,7 +24,7 @@
                 <th scope="col">Pulso</th>
                 <th scope="col">Temperatura</th>
                 <th scope="col">Nombre del Paciente</th>
-                <th scope="col"colspan="3" align="center">Opciones</th>
+                <th scope="col"colspan="3"><center>Opciones</center></th>
 
             </tr>
         </thead>
@@ -38,7 +38,7 @@
                     <td>@signoVital.Respiracion</td>
                     <td>@signoVital.Pulso</td>
                     <td>@signoVital.Temperatura</td>
-                    <td>@signoVital.Paciente.Nombre</td>
+                    <td>@signoVital.Paciente.Nombre  @signoVital.Paciente.Apellido</td>
                     <td><a asp-page="./EditarSignoVital" asp-route-id="@signoVital.Id">
                     <button type="button" class="btn btn-success">Editar</button></a></td>
                     <td><a asp-page="./VerSignoVital" asp-route-id="@signoVital.Id">

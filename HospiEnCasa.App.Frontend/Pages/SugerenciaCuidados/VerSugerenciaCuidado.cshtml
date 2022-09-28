@@ -1,0 +1,27 @@
+﻿@page
+@model HospiEnCasa.App.Frontend.Pages.VerSugerenciaCuidadoModel
+@{
+    ViewData["Title"]= "Ver Sugerencia de Cuidado";
+}
+
+<h1>Información Sugerencia de Cuidado</h1>
+
+<a asp-page="./ListadoSignosVitales">Listado de Sugerencia de Cuidado</a>
+<br> <br>
+
+<form method="POST">
+    <div class="card border-success mb-3" style="max-width: 18rem;">
+        <div class="card-header">Informacion de los Sugerencias de Cuidados</div>
+        <div class="card-body text-success">
+            <h6 class="card-title">
+                <label asp-for="SugerenciaCuidado.FechaHora" class= "control-label"></label>
+                <input type = "text" asp-for= "SugerenciaCuidado.FechaHora" class = "form-control" readonly/>
+                <label asp-for="SugerenciaCuidado.Descripcion" class= "control-label"></label>
+                <input type = "text" asp-for= "SugerenciaCuidado.Descripcion" class = "form-control" readonly/>
+            </h6>
+            
+            <p class="card-text">Diagnostico: @Model.SugerenciaCuidado.Historia.Entorno</p>
+            <p class="card-text">Entorno: @Model.SugerenciaCuidado.Historia.Diagnostico</p>
+            
+        </div>
+</form>

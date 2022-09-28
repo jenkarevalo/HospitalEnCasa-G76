@@ -9,7 +9,6 @@ namespace HospiEnCasa.Frontend.Pages
     {
         // Conectarse a la Bd
         private static IRepositorioSignoVital _repositorioSignoVital = new RepositorioSignoVital(new HospiEnCasa.App.Persistencia.AppContext());
-
         //Generar una variable para mapear que llega del signo desde la Bds
         [BindProperty]
         public SignoVital SignoVital {get; set;}
