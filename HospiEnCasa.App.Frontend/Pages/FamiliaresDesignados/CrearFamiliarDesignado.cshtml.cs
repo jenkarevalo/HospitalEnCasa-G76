@@ -18,7 +18,6 @@ namespace HospiEnCasa.Frontend.Pages
         public CrearFamiliarDesignadoModel()
         { }
 
-
         public ActionResult OnGet(int id)
         {   this.Pacientes = _repositorioPaciente.GetAllPacientes();
             return Page();
